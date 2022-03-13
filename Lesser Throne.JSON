@@ -1,0 +1,254 @@
+{
+"appversion":"20210301",
+"exportid":"20220208211855",
+"name":"Lesser Throne",
+"playername":"",
+"version":3.1,
+"edition":6,
+"stats":{
+"siz":{"value":0,"roll":"","shortname":"siz","name":"Size","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"str":{"value":60,"roll":"21-","shortname":"str","name":"Strength","current":"primary","primary":{"value":60,"roll":"21-","mod":0},"secondary":{"value":60,"roll":"21-","mod":0},"notes":"HTH Damage 12d6  END [6]"},
+"dex":{"value":28,"roll":"15-","shortname":"dex","name":"Dexterity","current":"primary","primary":{"value":28,"roll":"15-","mod":0},"secondary":{"value":28,"roll":"15-","mod":0},"notes":""},
+"con":{"value":40,"roll":"17-","shortname":"con","name":"Constitution","current":"primary","primary":{"value":40,"roll":"17-","mod":0},"secondary":{"value":40,"roll":"17-","mod":0},"notes":""},
+"int":{"value":18,"roll":"13-","shortname":"int","name":"Intelligence","current":"primary","primary":{"value":18,"roll":"13-","mod":0},"secondary":{"value":18,"roll":"13-","mod":0},"notes":"PER Roll 13-"},
+"ego":{"value":28,"roll":"15-","shortname":"ego","name":"Ego","current":"primary","primary":{"value":28,"roll":"15-","mod":0},"secondary":{"value":28,"roll":"15-","mod":0},"notes":""},
+"com":{"value":0,"roll":"","shortname":"com","name":"Comliness","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"pre":{"value":50,"roll":"19-","shortname":"pre","name":"Presence","current":"primary","primary":{"value":50,"roll":"19-","mod":0},"secondary":{"value":50,"roll":"19-","mod":0},"notes":"PRE Attack: 10d6"},
+"spd":{"value":8,"roll":"11-","shortname":"spd","name":"Speed","current":"primary","primary":{"value":8,"roll":"11-","mod":0},"secondary":{"value":8,"roll":"11-","mod":0},"notes":"Phases: 2, 3, 5, 6, 8, 9, 11, 12"},
+"ocv":{"value":9,"roll":"11-","shortname":"ocv","name":"Offensive Combat Value","current":"primary","primary":{"value":9,"roll":"11-","mod":0},"secondary":{"value":9,"roll":"11-","mod":0},"notes":""},
+"dcv":{"value":9,"roll":"11-","shortname":"dcv","name":"Defensive Combat Value","current":"primary","primary":{"value":9,"roll":"11-","mod":0},"secondary":{"value":9,"roll":"11-","mod":0},"notes":""},
+"omcv":{"value":9,"roll":"11-","shortname":"omcv","name":"Offensive Mental Combat Value","current":"primary","primary":{"value":9,"roll":"11-","mod":0},"secondary":{"value":9,"roll":"11-","mod":0},"notes":""},
+"dmcv":{"value":9,"roll":"11-","shortname":"dmcv","name":"Defensive Mental Combat Value","current":"primary","primary":{"value":9,"roll":"11-","mod":0},"secondary":{"value":9,"roll":"11-","mod":0},"notes":""},
+"pd":{"value":30,"roll":"15-","shortname":"pd","name":"Physical Defence","current":"primary","primary":{"value":30,"roll":"15-","mod":0},"secondary":{"value":40,"roll":"17-","mod":0},"notes":"30/40 PD (0/10 rPD)"},
+"pdr":{"value":0,"roll":"15-","shortname":"pdr","name":"Physical Resistant Defence","current":"primary","primary":{"value":0,"roll":"15-","mod":0},"secondary":{"value":10,"roll":"17-","mod":0},"notes":"30/40 PD (0/10 rPD)"},
+"ed":{"value":30,"roll":"15-","shortname":"ed","name":"Energy Defence","current":"primary","primary":{"value":30,"roll":"15-","mod":0},"secondary":{"value":40,"roll":"17-","mod":0},"notes":"30/40 ED (0/10 rED)"},
+"edr":{"value":30,"roll":"15-","shortname":"edr","name":"Energy Resistant Defence","current":"primary","primary":{"value":30,"roll":"15-","mod":0},"secondary":{"value":40,"roll":"17-","mod":0},"notes":"30/40 ED (0/10 rED)"},
+"per":{"value":18,"roll":"13-","shortname":"per","name":"Perception Roll","current":"primary","primary":{"value":0,"roll":"13-","mod":0},"secondary":{"value":0,"roll":"13-","mod":0},"notes":""},
+"rec":{"value":25,"roll":"14-","shortname":"rec","name":"Recovery","current":"primary","primary":{"value":25,"roll":"14-","mod":0},"secondary":{"value":25,"roll":"14-","mod":0},"notes":""},
+"body":{"value":30,"roll":"15-","shortname":"body","name":"Body","current":"primary","primary":{"value":30,"roll":"15-","mod":0},"secondary":{"value":30,"roll":"15-","mod":0},"notes":""},
+"end":{"value":100,"roll":"29-","shortname":"end","name":"Endurance","current":"primary","primary":{"value":100,"roll":"29-","mod":0},"secondary":{"value":100,"roll":"29-","mod":0},"notes":""},
+"stun":{"value":80,"roll":"25-","shortname":"stun","name":"Stun","current":"primary","primary":{"value":80,"roll":"25-","mod":0},"secondary":{"value":80,"roll":"25-","mod":0},"notes":""},
+"def":{"value":0,"roll":"","shortname":"def","name":"Defence","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"}},
+"movement":{
+"run":{"current":"primary","combat":"12m","noncombat":"24m","primary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"secondary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"icon":"ui_run","notes":""},
+"fly":{"current":"primary","combat":"10m","noncombat":"20m","primary":{"combat":{"description":"10m","value":10},"noncombat":{"description":"20m","value":20}},"secondary":{"combat":{"description":"10m","value":10},"noncombat":{"description":"20m","value":20}},"icon":"ui_fly","notes":""},
+"swim":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_swim","notes":""},
+"teleport":{"current":"primary","combat":"30m","noncombat":"60m","primary":{"combat":{"description":"30m","value":30},"noncombat":{"description":"60m","value":60}},"secondary":{"combat":{"description":"30m","value":30},"noncombat":{"description":"60m","value":60}},"icon":"ui_teleport","notes":""},
+"tunnel":{"current":"primary","combat":"2m","noncombat":"4m","primary":{"combat":{"description":"2m","value":2},"noncombat":{"description":"4m","value":4}},"secondary":{"combat":{"description":"2m","value":2},"noncombat":{"description":"4m","value":4}},"icon":"ui_tunnel","notes":""},
+"leap":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_leap","notes":"4m forward, 2m upward"}},
+"skills":[
+	{"name":"Perception ","roll":"13-","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"uid":1111111111111,"type":"Perception","input":"","level":"0","active":"0","base":"0","XMLID":"PERCEPTION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Perception 13-"},
+	{"name":"Interrogation ","stat":"PRE","everyman":false,"familiarity":false,"proficiency":false,"roll":"19-","uid":1281209018140,"type":"Interrogation","input":"","level":"0","active":"3","base":"3","XMLID":"INTERROGATION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Interrogation 19-"},
+	{"name":"AK (Domains Of Tyrannon) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1281209022812,"type":"Knowledge Skill","input":"Domains Of Tyrannon","level":"0","active":"3","base":"3","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"AK: Domains Of Tyrannon 13-"},
+	{"name":"KS (Blood Image Magic) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1281209034593,"type":"KS","input":"Blood Image Magic","level":"0","active":"3","base":"3","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Blood Image Magic 13-"},
+	{"name":"KS (Dimension Lords) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1281209047281,"type":"KS","input":"Dimension Lords","level":"0","active":"3","base":"3","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Dimension Lords 13-"},
+	{"name":"KS (Knowledge From Consumed Spirits) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1281209061203,"type":"KS","input":"Knowledge From Consumed Spirits","level":"0","active":"3","base":"3","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Knowledge From Consumed Spirits 13-"},
+	{"name":"KS (Magic Styles) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1281209084796,"type":"KS","input":"Magic Styles","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Magic Styles 11-"},
+	{"name":"KS (Old Thulkosian Forge Alchemy) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1281209096718,"type":"KS","input":"Old Thulkosian Forge Alchemy","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Old Thulkosian Forge Alchemy 11-"},
+	{"name":"KS (Outer Planes) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1281209117921,"type":"KS","input":"Outer Planes","level":"0","active":"3","base":"3","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Outer Planes 13-"},
+	{"name":"KS (Plans Of Tyrannon) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1281209130718,"type":"KS","input":"Plans Of Tyrannon","level":"0","active":"3","base":"3","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Plans Of Tyrannon 13-"},
+	{"name":"Navigation ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1281209141953,"type":"Navigation","input":"","level":"1","active":"4","base":"4","XMLID":"NAVIGATION","modifiers":[],"adders":[{"XMLID":"DIMENSIONAL","name":"","uid":1281209168957,"cost":"2","type":"Dimensional","input":"","level":"0"}],"option":"","optionAlias":"","optionID":"","text":"Navigation (Dimensional) 14-"},
+	{"name":"Oratory ","stat":"PRE","everyman":false,"familiarity":false,"proficiency":false,"roll":"19-","uid":1281209151843,"type":"Oratory","input":"","level":"0","active":"3","base":"3","XMLID":"ORATORY","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Oratory 19-"},
+	{"name":"Power (Thaumaturgy) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"18-","uid":1281209155265,"type":"Power","input":"Thaumaturgy","level":"5","active":"13","base":"13","XMLID":"POWERSKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Power: Thaumaturgy 18-"},
+	{"name":"Teamwork ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"15-","uid":1281209176609,"type":"Teamwork","input":"","level":"0","active":"3","base":"3","XMLID":"TEAMWORK","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Teamwork 15-"}],
+"talents":[],
+"perks":[
+	{"name":"Fringe Benefit ","roll":"","uid":1281208976609,"type":"Fringe Benefit","input":"","level":"0","active":"50","base":"50","XMLID":"FRINGE_BENEFIT","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1281209002610,"type":"","input":"","level":"0"}]}],
+"disads":[
+	{"name":"Dependence","roll":"","uid":1281209255951,"type":"Dependence","input":"must remain in Thulkos (or near a wormhole to it)","level":"0","active":"30","base":"30","XMLID":"DEPENDENCE","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1281209255890,"type":"Effect","input":"Takes 3d6 Damage","level":"0"},{"name":"No Name Supplied","uid":1281209255898,"type":"Dependent Substance Is","input":"Very Common","level":"0"},{"name":"No Name Supplied","uid":1281209255914,"type":"Time Before Suffering Effects","input":"1 Minute","level":"0"}]},
+	{"name":"Enraged","roll":"","uid":1281209275147,"type":"Enraged","input":"when ＂betrayed＂","level":"0","active":"35","base":"35","XMLID":"ENRAGED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1281209275113,"type":"Circumstance is","input":"Common","level":"0"},{"name":"No Name Supplied","uid":1281209275119,"type":"Chance To Become Enraged","input":"go 14-","level":"0"},{"name":"No Name Supplied","uid":1281209275125,"type":"Chance To Recover","input":"recover 11-","level":"0"},{"name":"No Name Supplied","uid":1281209275126,"type":"Berserk","input":"","level":"0"}]},
+	{"name":"Hunted","roll":"","uid":1281209339692,"type":"Hunted","input":"Istvatha V'han","level":"0","active":"10","base":"10","XMLID":"HUNTED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1281209339657,"type":"Appearance","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1281209339663,"type":"Capabilities","input":"As Powerful","level":"0"},{"name":"No Name Supplied","uid":1281209339669,"type":"Motivation","input":"Harshly Punish","level":"0"}]},
+	{"name":"Hunted","roll":"","uid":1281209356934,"type":"Hunted","input":"Skarn the Sharper","level":"0","active":"10","base":"10","XMLID":"HUNTED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1281209356899,"type":"Appearance","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1281209356905,"type":"Capabilities","input":"As Powerful","level":"0"},{"name":"No Name Supplied","uid":1281209356911,"type":"Motivation","input":"Harshly Punish","level":"0"}]},
+	{"name":"Hunted","roll":"","uid":1281209369219,"type":"Hunted","input":"assorted cosmic entities and dimension lords","level":"0","active":"5","base":"5","XMLID":"HUNTED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1281209369184,"type":"Appearance","input":"Frequently","level":"0"},{"name":"No Name Supplied","uid":1281209369190,"type":"Capabilities","input":"As Powerful","level":"0"},{"name":"No Name Supplied","uid":1281209369196,"type":"Motivation","input":"Watching","level":"0"}]},
+	{"name":"Physical Complication","roll":"","uid":1281209332453,"type":"Physical Complication","input":"Enormous (+4 OCV for others to hit, +4 to PER Rolls for others to perceive)","level":"0","active":"15","base":"15","XMLID":"PHYSICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1281209387294,"type":"Limitation Occurs","input":"Frequently","level":"0"},{"name":"No Name Supplied","uid":1281209387301,"type":"Limitation Impairs","input":"Slightly Impairing","level":"0"}]},
+	{"name":"Physical Complication","roll":"","uid":1281209431185,"type":"Physical Complication","input":"Magic Senses are MegaScaled to Detect Tyrannon","level":"0","active":"15","base":"15","XMLID":"PHYSICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1281209431162,"type":"Limitation Occurs","input":"Frequently","level":"0"},{"name":"No Name Supplied","uid":1281209431169,"type":"Limitation Impairs","input":"Slightly Impairing","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1281209447117,"type":"Psychological Complication","input":"Driven To Dominate All The Multiverse","level":"0","active":"25","base":"25","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1281209447097,"type":"Situation Is","input":"Very Common","level":"0"},{"name":"No Name Supplied","uid":1281209447103,"type":"Intensity Is","input":"Total","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1281209460724,"type":"Psychological Complication","input":"Convinced Of His Utter Superiority","level":"0","active":"25","base":"25","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1281209460704,"type":"Situation Is","input":"Very Common","level":"0"},{"name":"No Name Supplied","uid":1281209460710,"type":"Intensity Is","input":"Total","level":"0"}]},
+	{"name":"Custom Complication","roll":"","uid":1281209474087,"type":"Custom Complication","input":"","level":"0","active":"20","base":"20","XMLID":"GENERICDISADVANTAGE","modifiers":[],"adders":[]}],
+"combatlevels":[],
+"powers":[
+	{"name":"Divine Power","uid":1281131341716,"type":"Variable Power Pool","damage":"","range":"","input":"Magic Pool","level":"100","end":"","active":"150","base":"150","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[{"name":"No Name Supplied","uid":1281131734435,"type":"","damage":"","range":"","input":"","level":"100"}]},
+	{"name":"Dimensional Surveillance","uid":1281210345187,"type":"Clairsentience","damage":"","range":"200m","input":"Sight Group","level":"0","end":"7","active":"75","base":"50","XMLID":"CLAIRSENTIENCE","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1281210918408,"type":"Invisible to Magic Sense Group","damage":"","range":"200m","input":"","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1281210918405,"type":"","damage":"","range":"200m","input":"","level":"0"},{"name":"No Name Supplied","uid":1281210918406,"type":"Mental Group","damage":"","range":"200m","input":"","level":"0"},{"name":"No Name Supplied","uid":1281210918407,"type":"Hearing Group","damage":"","range":"200m","input":"","level":"0"}]},
+	{"name":"Hole In The World","uid":1281210788359,"type":"Tunneling","damage":"2m through 8 PD material","range":"","input":"","level":"2","end":"7","active":"67","base":"18","XMLID":"TUNNELING","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+1½","name":"","uid":1281211119327,"type":"MegaScale","damage":"2m through 8 PD material","range":"","input":"","level":"2"},{"value":"+1¼","name":"","uid":1281211321579,"type":"Usable On Others","damage":"2m through 8 PD material","range":"","input":"Usable As Attack","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1281211106601,"type":"+7 PD","damage":"2m through 8 PD material","range":"","input":"","level":"7"}]},
+	{"name":"Infantilized Population","uid":1281211746509,"type":"Transform","damage":"1d6+1","range":"200m","input":"adult sentients to childrenSevere","level":"1","end":"7","active":"75","base":"20","XMLID":"TRANSFORM","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¾","name":"","uid":1281211746462,"type":"Area Of Effect","damage":"1d6+1","range":"200m","input":"Radius","level":"16"},{"value":"+½","name":"","uid":1281211746465,"type":"Constant","damage":"1d6+1","range":"200m","input":"","level":"0"},{"value":"+1½","name":"","uid":1281211746467,"type":"MegaScale","damage":"1d6+1","range":"200m","input":"","level":"2"}],"adders":[{"name":"No Name Supplied","uid":1281211746442,"type":"Healed back by","damage":"1d6+1","range":"200m","input":"","level":"0"},{"name":"No Name Supplied","uid":1281211746443,"type":"+1 pip","damage":"1d6+1","range":"200m","input":"","level":"0"}]},
+	{"name":"Tailored Attack","uid":1281211620750,"type":"Blast","damage":"6d6","range":"300m","input":"ED","level":"6","end":"7","active":"75","base":"30","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1281211828962,"type":"Area Of Effect","damage":"6d6","range":"300m","input":"Radius","level":"1"},{"value":"+1","name":"","uid":1281211839729,"type":"Attack Versus Alternate Defense","damage":"6d6","range":"300m","input":"defense is something he knows the target doesn't haveVery Common -> Rare","level":"0"}],"adders":[]},
+	{"name":"Divine Power","uid":1281131413203,"type":"Naked Advantage","damage":"","range":"","input":"Divine Power VPP","level":"50","end":"10","active":"100","base":"50","XMLID":"NAKEDMODIFIER","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[{"value":"-¼","name":"","uid":1281132210162,"type":"Cannot Add To Or Modify Other Powers Or Characteristics Powers","damage":"","range":"","input":"","level":"0"},{"value":"-¼","name":"","uid":1281132210163,"type":"Only When In Thulkos","damage":"","range":"","input":"","level":"0"},{"value":"+1","name":"","uid":1281132210164,"type":"Powers Can Be Changed As A Zero-Phase Action","damage":"","range":"","input":"","level":"0"},{"value":"+1","name":"","uid":1281132210165,"type":"No Skill Roll Required","damage":"","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"Tyrannon's Mighty Magic","uid":1281132230654,"type":"","damage":"","range":"","input":"","level":"0","end":"","active":"140","base":"140","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Power of Tyrannon","uid":1281132235796,"type":"Blast","damage":"20d6","range":"1,000m","input":"ED","level":"20","end":"5","active":"125","base":"100","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1281132279703,"type":"Reduced Endurance","damage":"20d6","range":"1,000m","input":"Half END","level":"0"}],"adders":[]},
+	{"name":"Ire Of Tyrannon","uid":1281132545234,"type":"Mental Blast","damage":"10d6","range":"LOS","input":"","level":"10","end":"5","active":"125","base":"100","XMLID":"EGOATTACK","strMod":false,"class":{"attack":true,"mental":true,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1281132580101,"type":"Reduced Endurance","damage":"10d6","range":"LOS","input":"Half END","level":"0"}],"adders":[]},
+	{"name":"Hand Of Tyrannon","uid":1281132571828,"type":"Telekinesis","damage":"(50 STR)","range":"LOS","input":"","level":"50","end":"5","active":"131","base":"75","XMLID":"TELEKINESIS","strMod":true,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+0","name":"","uid":1281132602483,"type":"Alternate Combat Value","damage":"(50 STR)","range":"LOS","input":"uses OMCV against DCV","level":"0"},{"value":"+½","name":"","uid":1281132610306,"type":"Line Of Sight","damage":"(50 STR)","range":"LOS","input":"","level":"0"},{"value":"+¼","name":"","uid":1281132626831,"type":"Reduced Endurance","damage":"(50 STR)","range":"LOS","input":"Half END","level":"0"}],"adders":[]},
+	{"name":"Might Of Tyrannon","uid":1281132664609,"type":"Blast","damage":"16d6","range":"800m","input":"ED","level":"16","end":"12","active":"120","base":"80","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1281132698343,"type":"Affects Desolidified","damage":"16d6","range":"800m","input":"Any form of Desolidification","level":"0"}],"adders":[]},
+	{"name":"Bonds Of Tyrannon","uid":1281132703312,"type":"Entangle","damage":"5d6, 5 PD/5 ED","range":"500m","input":"","level":"5","end":"4","active":"100","base":"50","XMLID":"ENTANGLE","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1281132777242,"type":"Affects Desolidified","damage":"5d6, 5 PD/5 ED","range":"500m","input":"Any form of Desolidification","level":"0"},{"value":"+¼","name":"","uid":1281132777244,"type":"Cannot Be Escaped With Teleportation","damage":"5d6, 5 PD/5 ED","range":"500m","input":"","level":"1"},{"value":"+¼","name":"","uid":1281132777249,"type":"Reduced Endurance","damage":"5d6, 5 PD/5 ED","range":"500m","input":"Half END","level":"0"}],"adders":[]},
+	{"name":"Curse Of Tyrannon","uid":1281132849500,"type":"Dispel","damage":"30d6","range":"900m","input":"Magic","level":"30","end":"13","active":"135","base":"90","XMLID":"DISPEL","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1281132999102,"type":"Variable Effect","damage":"30d6","range":"900m","input":"any one Magic power or spell at a time","level":"0"}],"adders":[]},
+	{"name":"Dealy Wrath Of Tyrannon","uid":1281133146390,"type":"Killing Ranged","damage":"1d6+1","range":"LOS","input":"ED","level":"1","end":"4","active":"90","base":"20","XMLID":"RKA","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1281133266163,"type":"Alternate Combat Value","damage":"1d6+1","range":"LOS","input":"uses OMCV against DMCV","level":"0"},{"value":"+½","name":"","uid":1281133280801,"type":"Attack Versus Alternate Defense","damage":"1d6+1","range":"LOS","input":"Mental DefenseCommon -> Uncommon","level":"0"},{"value":"+1","name":"","uid":1281133338389,"type":"Does BODY","damage":"1d6+1","range":"LOS","input":"","level":"0"},{"value":"+½","name":"","uid":1281133347744,"type":"Constant","damage":"1d6+1","range":"LOS","input":"","level":"0"},{"value":"+½","name":"","uid":1281133354662,"type":"+2 Increased STUN Multiplier","damage":"1d6+1","range":"LOS","input":"","level":"2"},{"value":"+½","name":"","uid":1281133365081,"type":"Line Of Sight","damage":"1d6+1","range":"LOS","input":"","level":"0"},{"value":"+¼","name":"","uid":1281133373737,"type":"Reduced Endurance","damage":"1d6+1","range":"LOS","input":"Half END","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1281133260250,"type":"+1 pip","damage":"1d6+1","range":"LOS","input":"","level":"0"}]},
+	{"name":"Tyrannon Is Legion","uid":1281133564687,"type":"Summon","damage":"489-point Emissaries","range":"","input":"Emissaries","level":"489","end":"11","active":"108","base":"108","XMLID":"SUMMON","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[{"name":"No Name Supplied","uid":1281133606628,"type":"x4 Number Of Beings","damage":"489-point Emissaries","range":"","input":"","level":"2"}]},
+	{"name":"Quelling Will Of Tyrannon","uid":1281133646531,"type":"Drain","damage":"6d6","range":"600m","input":"Magic Powers","level":"6","end":"9","active":"90","base":"60","XMLID":"DRAIN","strMod":false,"class":{"attack":true,"mental":false,"adjustment":true,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1281133709557,"type":"Costs Endurance (to maintain","damage":"6d6","range":"600m","input":"","level":"0"},{"value":"+½","name":"","uid":1281133716028,"type":"Variable Effect","damage":"6d6","range":"600m","input":"any one Magic power or spell at a time","level":"0"}],"adders":[]},
+	{"name":"Tyrannon Goes Where He Wills","uid":1281133721500,"type":"Extra-Dimensional Movement","damage":"","range":"","input":"Any Dimension, Any Location","level":"0","end":"5","active":"50","base":"50","XMLID":"EXTRADIMENSIONALMOVEMENT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[{"name":"No Name Supplied","uid":1281133800451,"type":"x2 Increased Weight","damage":"","range":"","input":"","level":"1"}]},
+	{"name":"Astral Phasing","uid":1281134144640,"type":"Desolidification","damage":"","range":"","input":"spirit magic","level":"0","end":"4","active":"40","base":"40","XMLID":"DESOLIDIFICATION","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":true,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Astral Leap","uid":1281134166796,"type":"Teleportation","damage":"30m","range":"","input":"","level":"30","end":"4","active":"37","base":"30","XMLID":"TELEPORTATION","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1281134240793,"type":"Armor Piercing","damage":"30m","range":"","input":"","level":"1"}],"adders":[]},
+	{"name":"Fury Of Tyrannon","uid":1281134235500,"type":"Blast","damage":"11d6","range":"","input":"ED","level":"11","end":"14","active":"137","base":"55","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¾","name":"","uid":1281134275031,"type":"Area Of Effect","damage":"11d6","range":"","input":"Radius","level":"16"},{"value":"+½","name":"","uid":1281134285699,"type":"Double Knockback","damage":"11d6","range":"","input":"","level":"0"},{"value":"+¼","name":"","uid":1281134293980,"type":"Personal Immunity","damage":"11d6","range":"","input":"","level":"0"},{"value":"-½","name":"","uid":1281134299476,"type":"No Range","damage":"11d6","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"Dimensional Bridge","uid":1281134295109,"type":"Extra-Dimensional Movement","damage":"","range":"","input":"Any Dimension, Any Location","level":"0","end":"0","active":"124","base":"45","XMLID":"EXTRADIMENSIONALMOVEMENT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1281207912313,"type":"Constant","damage":"","range":"","input":"","level":"0"},{"value":"+½","name":"","uid":1281207919856,"type":"Uncontrolled","damage":"","range":"","input":"","level":"0"},{"value":"+½","name":"","uid":1281207938962,"type":"Reduced Endurance","damage":"","range":"","input":"0 END","level":"0"},{"value":"+¼","name":"","uid":1281207948264,"type":"Usable On Others","damage":"","range":"","input":"Usable By Other","level":"0"},{"value":"-½","name":"","uid":1281207952848,"type":"Gate","damage":"","range":"","input":"","level":"0"},{"value":"-1","name":"","uid":1281207968959,"type":"Extra Time","damage":"","range":"","input":"5 Minutes","level":"0"}],"adders":[]},
+	{"name":"Dimensional Bridge Anchor","uid":1281207541484,"type":"Naked Advantage","damage":"","range":"","input":"Dimensional Bridge","level":"45","end":"4","active":"45","base":"45","XMLID":"NAKEDMODIFIER","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[{"value":"+1","name":"","uid":1281207579809,"type":"Area Of Effect","damage":"","range":"","input":"Radius","level":"30"},{"value":"-2","name":"","uid":1281207595460,"type":"Focus","damage":"","range":"","input":"OAF","level":"0"},{"value":"-1","name":"","uid":1281207636936,"type":"Extra Time","damage":"","range":"","input":"5 Minutes","level":"0"}],"adders":[]},
+	{"name":"Tyrannon's Toughness","uid":1281207452531,"type":"PD","damage":"","range":"","input":"","level":"0","end":"","active":"15","base":"0","XMLID":"PD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1281568911732,"type":"Impenetrable","damage":"","range":"","input":"","level":"1"},{"value":"+¼","name":"","uid":1281568911733,"type":"Hardened","damage":"","range":"","input":"","level":"1"}],"adders":[]},
+	{"name":"Tyrannon's Toughness","uid":1281207477515,"type":"ED","damage":"","range":"","input":"","level":"0","end":"","active":"15","base":"0","XMLID":"ED","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1281568917086,"type":"Impenetrable","damage":"","range":"","input":"","level":"1"},{"value":"+¼","name":"","uid":1281568917087,"type":"Hardened","damage":"","range":"","input":"","level":"1"}],"adders":[]},
+	{"name":"Tryannon's Toughness","uid":1281568903227,"type":"Naked Advantage","damage":"","range":"","input":"30 PD/30 ED","level":"60","end":"0","active":"45","base":"60","XMLID":"NAKEDMODIFIER","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[{"value":"+½","name":"","uid":1281568903223,"type":"Resistant","damage":"","range":"","input":"","level":"0"},{"value":"+¼","name":"","uid":1281568903224,"type":"Hardened","damage":"","range":"","input":"","level":"0"},{"value":"+¼","name":"","uid":1281568903225,"type":"Impenetrable","damage":"","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"First Shield Of Tyrannon","uid":1281208104062,"type":"Resistant Protection","damage":"","range":"","input":"","level":"26","end":"0","active":"49","base":"39","XMLID":"FORCEFIELD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1281208144550,"type":"Hardened","damage":"","range":"","input":"","level":"1"}],"adders":[]},
+	{"name":"Tyrannon's Pitiless Gaze","uid":1281208145046,"type":"Flash Defense","damage":"(10 points)","range":"","input":"Sight Group","level":"10","end":"0","active":"10","base":"10","XMLID":"FLASHDEFENSE","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[]},
+	{"name":"Tyrannon's Invincible Ego","uid":1281208180140,"type":"Mental Defense","damage":"25 points total","range":"","input":"","level":"25","end":"0","active":"25","base":"25","XMLID":"MENTALDEFENSE","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[]},
+	{"name":"Tyrannon's Invincible Ego","uid":1281208214468,"type":"Naked Advantage","damage":"","range":"","input":"Mental Defense","level":"10","end":"0","active":"5","base":"10","XMLID":"NAKEDMODIFIER","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[{"value":"+½","name":"","uid":1281208263069,"type":"Resistant","damage":"","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"Tyrannon's Mystic Fortitude","uid":1281208274546,"type":"Power Defense","damage":"15 points","range":"","input":"","level":"15","end":"0","active":"15","base":"15","XMLID":"POWERDEFENSE","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[]},
+	{"name":"Second Shield Of Tyrannon","uid":1281208297796,"type":"Deflection","damage":"","range":"200m","input":"","level":"0","end":"2","active":"20","base":"20","XMLID":"MISSILEDEFLECTION","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Tyrannon's Godhood","uid":1281208319968,"type":"Life Support","damage":"","range":"","input":"","level":"0","end":"0","active":"80","base":"80","XMLID":"LIFESUPPORT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[{"name":"No Name Supplied","uid":1281208348851,"type":"","damage":"","range":"","input":"","level":"0"}]},
+	{"name":"Mystic Awareness","uid":1281208367468,"type":"Detect","damage":"13-","range":"","input":"A Class Of Things","level":"0","end":"0","active":"10","base":"10","XMLID":"DETECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[{"name":"No Name Supplied","uid":1644376706161,"type":"Discriminatory","damage":"13-","range":"","input":"","level":"0"}]},
+	{"name":"One Will In Many Bodies","uid":1281208410015,"type":"Mind Link","damage":"","range":"LOS","input":"Specific Group of Minds","level":"0","end":"0","active":"50","base":"50","XMLID":"MINDLINK","strMod":false,"class":{"attack":false,"mental":true,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-1","name":"","uid":1281208778197,"type":"Only With Others Who Have Mind Link","damage":"","range":"LOS","input":"","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1281208766028,"type":"Number of Minds (x32)","damage":"","range":"LOS","input":"","level":"5"},{"name":"No Name Supplied","uid":1281208770622,"type":"Unlimited range in this dimension and can reach into other dimensions","damage":"","range":"LOS","input":"","level":"0"},{"name":"No Name Supplied","uid":1281208806343,"type":"Psychic Bond","damage":"","range":"LOS","input":"","level":"0"}]},
+	{"name":"Tyrannon Ignores Gravity","uid":1281208855109,"type":"Flight","damage":"10m","range":"","input":"","level":"10","end":"0","active":"17","base":"10","XMLID":"FLIGHT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1281208889704,"type":"Reduced Endurance","damage":"10m","range":"","input":"0 END","level":"0"},{"value":"+¼","name":"","uid":1281208895964,"type":"Persistent","damage":"10m","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"No Name Supplied","uid":1281208941703,"type":"Custom Power","damage":"","range":"","input":"","level":"125","end":"0","active":"125","base":"250","XMLID":"CUSTOMPOWER","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]}],
+"equipment":[],
+"martialArts":[	
+	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Normal Attack","time":"½","level":"0","active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false}],
+"rolls":[
+	{"name":"Hole In The World","uid":1281210788359,"gameEdition":6,"tool":"2m through 8 PD material, Tunneling , 7 end.","diceMod":0,"dice":0,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Infantilized Population","uid":1281211746509,"gameEdition":6,"tool":"1d6+1, Transform (vs. adult sentients to children,Severe) 200m, 7 end.","diceMod":1,"dice":1,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Tailored Attack","uid":1281211620750,"gameEdition":6,"tool":"6d6, Blast (vs. ED) 300m, 7 end.","diceMod":0,"dice":6,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Power of Tyrannon","uid":1281132235796,"gameEdition":6,"tool":"20d6, Blast (vs. ED) 1,000m, 5 end.","diceMod":0,"dice":20,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Ire Of Tyrannon","uid":1281132545234,"gameEdition":6,"tool":"10d6, Mental Blast LOS, 5 end.","diceMod":0,"dice":10,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Hand Of Tyrannon","uid":1281132571828,"gameEdition":6,"tool":"(50 STR), Telekinesis LOS, 5 end.","diceMod":0,"dice":0,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":true,"stunMultiplierMod":0},
+	{"name":"Might Of Tyrannon","uid":1281132664609,"gameEdition":6,"tool":"16d6, Blast (vs. ED) 800m, 12 end.","diceMod":0,"dice":16,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Bonds Of Tyrannon","uid":1281132703312,"gameEdition":6,"tool":"5d6, 5 PD/5 ED, Entangle 500m, 4 end.","diceMod":0,"dice":5,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Curse Of Tyrannon","uid":1281132849500,"gameEdition":6,"tool":"30d6, Dispel (vs. Magic) 900m, 13 end.","diceMod":0,"dice":30,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Dealy Wrath Of Tyrannon","uid":1281133146390,"gameEdition":6,"tool":"1d6+1, Killing Ranged (vs. ED) LOS, 4 end.","diceMod":1,"dice":1,"halfDice":false,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":2},
+	{"name":"Quelling Will Of Tyrannon","uid":1281133646531,"gameEdition":6,"tool":"6d6, Drain (vs. Magic Powers) 600m, 9 end.","diceMod":0,"dice":6,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Fury Of Tyrannon","uid":1281134235500,"gameEdition":6,"tool":"11d6, Blast (vs. ED) , 14 end.","diceMod":0,"dice":11,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0}],
+"lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

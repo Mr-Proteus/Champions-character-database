@@ -1,0 +1,199 @@
+{
+"appversion":"20210301",
+"exportid":"20220122214815",
+"name":"Gorgon",
+"playername":"",
+"version":3.1,
+"edition":6,
+"stats":{
+"siz":{"value":0,"roll":"","shortname":"siz","name":"Size","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"str":{"value":18,"roll":"13-","shortname":"str","name":"Strength","current":"primary","primary":{"value":18,"roll":"13-","mod":0},"secondary":{"value":18,"roll":"13-","mod":0},"notes":"HTH Damage 3½d6  END [2]"},
+"dex":{"value":15,"roll":"12-","shortname":"dex","name":"Dexterity","current":"primary","primary":{"value":15,"roll":"12-","mod":0},"secondary":{"value":15,"roll":"12-","mod":0},"notes":""},
+"con":{"value":18,"roll":"13-","shortname":"con","name":"Constitution","current":"primary","primary":{"value":18,"roll":"13-","mod":0},"secondary":{"value":18,"roll":"13-","mod":0},"notes":""},
+"int":{"value":13,"roll":"12-","shortname":"int","name":"Intelligence","current":"primary","primary":{"value":13,"roll":"12-","mod":0},"secondary":{"value":13,"roll":"12-","mod":0},"notes":"PER Roll 12-"},
+"ego":{"value":12,"roll":"11-","shortname":"ego","name":"Ego","current":"primary","primary":{"value":12,"roll":"11-","mod":0},"secondary":{"value":12,"roll":"11-","mod":0},"notes":""},
+"com":{"value":0,"roll":"","shortname":"com","name":"Comliness","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"pre":{"value":15,"roll":"12-","shortname":"pre","name":"Presence","current":"primary","primary":{"value":15,"roll":"12-","mod":0},"secondary":{"value":15,"roll":"12-","mod":0},"notes":"PRE Attack: 3d6"},
+"spd":{"value":4,"roll":"10-","shortname":"spd","name":"Speed","current":"primary","primary":{"value":4,"roll":"10-","mod":0},"secondary":{"value":4,"roll":"10-","mod":0},"notes":"Phases: 3, 6, 9, 12"},
+"ocv":{"value":5,"roll":"10-","shortname":"ocv","name":"Offensive Combat Value","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":5,"roll":"10-","mod":0},"notes":""},
+"dcv":{"value":5,"roll":"10-","shortname":"dcv","name":"Defensive Combat Value","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":5,"roll":"10-","mod":0},"notes":""},
+"omcv":{"value":3,"roll":"10-","shortname":"omcv","name":"Offensive Mental Combat Value","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":""},
+"dmcv":{"value":4,"roll":"10-","shortname":"dmcv","name":"Defensive Mental Combat Value","current":"primary","primary":{"value":4,"roll":"10-","mod":0},"secondary":{"value":4,"roll":"10-","mod":0},"notes":""},
+"pd":{"value":7,"roll":"10-","shortname":"pd","name":"Physical Defence","current":"primary","primary":{"value":7,"roll":"10-","mod":0},"secondary":{"value":7,"roll":"10-","mod":0},"notes":"7 PD (2 rPD)"},
+"pdr":{"value":2,"roll":"10-","shortname":"pdr","name":"Physical Resistant Defence","current":"primary","primary":{"value":2,"roll":"10-","mod":0},"secondary":{"value":2,"roll":"10-","mod":0},"notes":"7 PD (2 rPD)"},
+"ed":{"value":5,"roll":"10-","shortname":"ed","name":"Energy Defence","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":5,"roll":"10-","mod":0},"notes":"5 ED (2 rED)"},
+"edr":{"value":5,"roll":"10-","shortname":"edr","name":"Energy Resistant Defence","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":5,"roll":"10-","mod":0},"notes":"5 ED (2 rED)"},
+"per":{"value":13,"roll":"12-","shortname":"per","name":"Perception Roll","current":"primary","primary":{"value":0,"roll":"12-","mod":0},"secondary":{"value":0,"roll":"12-","mod":0},"notes":""},
+"rec":{"value":8,"roll":"11-","shortname":"rec","name":"Recovery","current":"primary","primary":{"value":8,"roll":"11-","mod":0},"secondary":{"value":8,"roll":"11-","mod":0},"notes":""},
+"body":{"value":12,"roll":"11-","shortname":"body","name":"Body","current":"primary","primary":{"value":12,"roll":"11-","mod":0},"secondary":{"value":12,"roll":"11-","mod":0},"notes":""},
+"end":{"value":35,"roll":"16-","shortname":"end","name":"Endurance","current":"primary","primary":{"value":35,"roll":"16-","mod":0},"secondary":{"value":35,"roll":"16-","mod":0},"notes":""},
+"stun":{"value":40,"roll":"17-","shortname":"stun","name":"Stun","current":"primary","primary":{"value":40,"roll":"17-","mod":0},"secondary":{"value":40,"roll":"17-","mod":0},"notes":""},
+"def":{"value":0,"roll":"","shortname":"def","name":"Defence","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"}},
+"movement":{
+"run":{"current":"primary","combat":"12m","noncombat":"24m","primary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"secondary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"icon":"ui_run","notes":""},
+"fly":{"current":"primary","combat":"16m","noncombat":"32m","primary":{"combat":{"description":"16m","value":16},"noncombat":{"description":"32m","value":32}},"secondary":{"combat":{"description":"16m","value":16},"noncombat":{"description":"32m","value":32}},"icon":"ui_fly","notes":""},
+"swim":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_swim","notes":""},
+"leap":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_leap","notes":"4m forward, 2m upward"}},
+"skills":[
+	{"name":"Perception ","roll":"12-","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"uid":1111111111111,"type":"Perception","input":"","level":"0","active":"0","base":"0","XMLID":"PERCEPTION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Perception 12-"},
+	{"name":"AK (Home Territory) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1270925330577,"type":"Knowledge Skill","input":"Home Territory","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"AK: Home Territory 11-"},
+	{"name":"Stealth ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1270925358726,"type":"Stealth","input":"","level":"0","active":"3","base":"3","XMLID":"STEALTH","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Stealth 12-"},
+	{"name":"WF ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1270925364736,"type":"Weapon Familiarity","input":"","level":"0","active":"4","base":"4","XMLID":"WEAPON_FAMILIARITY","modifiers":[],"adders":[{"XMLID":"COMMONMELEE","name":"","uid":1270925389154,"cost":"2","type":"Common Melee Weapons","input":"","level":"0"},{"XMLID":"COMMONMISSILE","name":"","uid":1270925395331,"cost":"2","type":"Common Missile Weapons","input":"","level":"0"}],"option":"","optionAlias":"","optionID":"","text":"WF: Common Melee Weapons, Common Missile Weapons"}],
+"talents":[],
+"perks":[],
+"disads":[
+	{"name":"Physical Complication","roll":"","uid":1270926358544,"type":"Physical Complication","input":"Human Size","level":"0","active":"0","base":"0","XMLID":"PHYSICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1270926420875,"type":"Limitation Occurs","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1270926420882,"type":"Limitation Impairs","input":"Barely Impairing","level":"0"},{"name":"No Name Supplied","uid":1270926420883,"type":"","input":"","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1270926398044,"type":"Psychological Complication","input":"Wicked And Cruel","level":"0","active":"20","base":"20","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1270926432345,"type":"Situation Is","input":"Very Common","level":"0"},{"name":"No Name Supplied","uid":1270926432351,"type":"Intensity Is","input":"Strong","level":"0"}]}],
+"combatlevels":[],
+"powers":[
+	{"name":"Petrifying Gaze","uid":1270925396876,"type":"Transform","damage":"8d6","range":"1,200m","input":"living things to stoneSevere","level":"8","end":"0","active":"210","base":"120","XMLID":"TRANSFORM","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1270925486366,"type":"Personal Immunity","damage":"8d6","range":"1,200m","input":"","level":"0"},{"value":"+½","name":"","uid":1270925500481,"type":"Reduced Endurance","damage":"8d6","range":"1,200m","input":"0 END","level":"0"},{"value":"-¼","name":"","uid":1270925513555,"type":"Limited Target","damage":"8d6","range":"1,200m","input":"([Slightly Limited]","level":"0"},{"value":"-½","name":"","uid":1270925556825,"type":"All Or Nothing","damage":"8d6","range":"1,200m","input":"","level":"0"},{"value":"-½","name":"","uid":1270925593035,"type":"Eye Contact Required","damage":"8d6","range":"1,200m","input":"","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1270925419840,"type":"Healed back by","damage":"8d6","range":"1,200m","input":"","level":"0"}]},
+	{"name":"Serpentine Hair","uid":1270925624005,"type":"Killing Attack - Hand-To-Hand","damage":"1 point (1d6+1 w/STR)","range":"","input":"PD","level":"0","end":"1","active":"5","base":"5","XMLID":"HKA","strMod":true,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[{"name":"No Name Supplied","uid":1270925651257,"type":"+1 pip","damage":"1 point (1d6+1 w/STR)","range":"","input":"","level":"0"}]},
+	{"name":"Serpentine Hair Venom","uid":1270925658050,"type":"Killing Ranged","damage":"1d6","range":"","input":"PD","level":"1","end":"[4]","active":"45","base":"15","XMLID":"RKA","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+1","name":"","uid":1270926087496,"type":"Attack Versus Alternate Defense","damage":"1d6","range":"","input":"Life Support [appropriate Immunity]Very Common -> Rare","level":"0"},{"value":"+1","name":"","uid":1270926087498,"type":"Does BODY","damage":"1d6","range":"","input":"","level":"0"},{"value":"-½","name":"","uid":1270926087593,"type":"Damage Over Time","damage":"1d6","range":"","input":"","level":"0"},{"value":"-2","name":"","uid":1270926087635,"type":"Extra Time","damage":"1d6","range":"","input":"5 Minutes","level":"0"},{"value":"-½","name":"","uid":1270926087638,"type":"No Range","damage":"1d6","range":"","input":"","level":"0"},{"value":"-½","name":"","uid":1270926087659,"type":"Conditional Power","damage":"1d6","range":"","input":"Power does not work in Common Circumstances","level":"0"},{"value":"-½","name":"","uid":1270926087670,"type":"Linked","damage":"1d6","range":"","input":"","level":"0"},{"value":"-1","name":"","uid":1270926087737,"type":"Charges","damage":"1d6","range":"","input":"4","level":"0"}],"adders":[]},
+	{"name":"Brazen Claws","uid":1270926083889,"type":"Killing Attack - Hand-To-Hand","damage":"1d6 (2d6 w/STR)","range":"","input":"PD","level":"1","end":"1","active":"15","base":"15","XMLID":"HKA","strMod":true,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Fangs","uid":1270926114407,"type":"Killing Attack - Hand-To-Hand","damage":"1 point (1d6+1 w/STR)","range":"","input":"ED","level":"0","end":"1","active":"5","base":"5","XMLID":"HKA","strMod":true,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-¼","name":"","uid":1270926163770,"type":"Reduced Penetration","damage":"1 point (1d6+1 w/STR)","range":"","input":"","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1270926149187,"type":"+1 pip","damage":"1 point (1d6+1 w/STR)","range":"","input":"","level":"0"}]},
+	{"name":"No Name Supplied","uid":1270926213270,"type":"PD","damage":"","range":"","input":"","level":"2","end":"","active":"3","base":"2","XMLID":"PD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":true,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1270926220393,"type":"Resistant","damage":"","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"No Name Supplied","uid":1270926237599,"type":"ED","damage":"","range":"","input":"","level":"2","end":"","active":"3","base":"2","XMLID":"ED","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":true,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1270926243500,"type":"Resistant","damage":"","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"Wings","uid":1270926272072,"type":"Flight","damage":"16m","range":"","input":"","level":"16","end":"2","active":"16","base":"16","XMLID":"FLIGHT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1270926320030,"type":"Restrainable","damage":"16m","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"Serpentine Hair","uid":1270926327083,"type":"Increased Arc Of Perception (360 Degrees)","damage":"","range":"","input":"Sight Group","level":"0","end":"0","active":"10","base":"10","XMLID":"INCREASEDARC360","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[]}],
+"equipment":[],
+"martialArts":[	
+	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Normal Attack","time":"½","level":"0","active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false}],
+"rolls":[
+	{"name":"Petrifying Gaze","uid":1270925396876,"gameEdition":6,"tool":"8d6, Transform (vs. living things to stone,Severe) 1,200m, 0 end.","diceMod":0,"dice":8,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Serpentine Hair","uid":1270925624005,"gameEdition":6,"tool":"1 point (1d6+1 w/STR), Killing Attack - Hand-To-Hand (vs. PD) , 1 end.","diceMod":1,"dice":1,"halfDice":false,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":true,"stunMultiplierMod":0},
+	{"name":"Serpentine Hair Venom","uid":1270925658050,"gameEdition":6,"tool":"1d6, Killing Ranged (vs. PD) , [4] end.","diceMod":0,"dice":1,"halfDice":false,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Brazen Claws","uid":1270926083889,"gameEdition":6,"tool":"1d6 (2d6 w/STR), Killing Attack - Hand-To-Hand (vs. PD) , 1 end.","diceMod":0,"dice":2,"halfDice":false,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":true,"stunMultiplierMod":0},
+	{"name":"Fangs","uid":1270926114407,"gameEdition":6,"tool":"1 point (1d6+1 w/STR), Killing Attack - Hand-To-Hand (vs. ED) , 1 end.","diceMod":1,"dice":1,"halfDice":false,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":true,"stunMultiplierMod":0}],
+"lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

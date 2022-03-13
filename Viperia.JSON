@@ -1,0 +1,230 @@
+{
+"appversion":"20210301",
+"exportid":"20211207194515",
+"name":"Viperia",
+"playername":"",
+"version":3.1,
+"edition":6,
+"stats":{
+"siz":{"value":0,"roll":"","shortname":"siz","name":"Size","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"str":{"value":70,"roll":"23-","shortname":"str","name":"Strength","current":"primary","primary":{"value":70,"roll":"23-","mod":0},"secondary":{"value":70,"roll":"23-","mod":0},"notes":"HTH Damage 14d6  END [7]"},
+"dex":{"value":28,"roll":"15-","shortname":"dex","name":"Dexterity","current":"primary","primary":{"value":28,"roll":"15-","mod":0},"secondary":{"value":28,"roll":"15-","mod":0},"notes":""},
+"con":{"value":45,"roll":"18-","shortname":"con","name":"Constitution","current":"primary","primary":{"value":45,"roll":"18-","mod":0},"secondary":{"value":45,"roll":"18-","mod":0},"notes":""},
+"int":{"value":23,"roll":"14-","shortname":"int","name":"Intelligence","current":"primary","primary":{"value":23,"roll":"14-","mod":0},"secondary":{"value":23,"roll":"14-","mod":0},"notes":"PER Roll 14-/20-"},
+"ego":{"value":20,"roll":"13-","shortname":"ego","name":"Ego","current":"primary","primary":{"value":20,"roll":"13-","mod":0},"secondary":{"value":20,"roll":"13-","mod":0},"notes":""},
+"com":{"value":0,"roll":"","shortname":"com","name":"Comliness","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"pre":{"value":40,"roll":"17-","shortname":"pre","name":"Presence","current":"primary","primary":{"value":40,"roll":"17-","mod":0},"secondary":{"value":40,"roll":"17-","mod":0},"notes":"PRE Attack: 8d6"},
+"spd":{"value":8,"roll":"11-","shortname":"spd","name":"Speed","current":"primary","primary":{"value":8,"roll":"11-","mod":0},"secondary":{"value":8,"roll":"11-","mod":0},"notes":"Phases: 2, 3, 5, 6, 8, 9, 11, 12"},
+"ocv":{"value":9,"roll":"11-","shortname":"ocv","name":"Offensive Combat Value","current":"primary","primary":{"value":9,"roll":"11-","mod":0},"secondary":{"value":9,"roll":"11-","mod":0},"notes":""},
+"dcv":{"value":9,"roll":"11-","shortname":"dcv","name":"Defensive Combat Value","current":"primary","primary":{"value":9,"roll":"11-","mod":0},"secondary":{"value":9,"roll":"11-","mod":0},"notes":""},
+"omcv":{"value":7,"roll":"10-","shortname":"omcv","name":"Offensive Mental Combat Value","current":"primary","primary":{"value":7,"roll":"10-","mod":0},"secondary":{"value":7,"roll":"10-","mod":0},"notes":""},
+"dmcv":{"value":7,"roll":"10-","shortname":"dmcv","name":"Defensive Mental Combat Value","current":"primary","primary":{"value":7,"roll":"10-","mod":0},"secondary":{"value":7,"roll":"10-","mod":0},"notes":""},
+"pd":{"value":32,"roll":"15-","shortname":"pd","name":"Physical Defence","current":"primary","primary":{"value":32,"roll":"15-","mod":0},"secondary":{"value":32,"roll":"15-","mod":0},"notes":"32 PD (32 rPD)"},
+"pdr":{"value":32,"roll":"15-","shortname":"pdr","name":"Physical Resistant Defence","current":"primary","primary":{"value":32,"roll":"15-","mod":0},"secondary":{"value":32,"roll":"15-","mod":0},"notes":"32 PD (32 rPD)"},
+"ed":{"value":32,"roll":"15-","shortname":"ed","name":"Energy Defence","current":"primary","primary":{"value":32,"roll":"15-","mod":0},"secondary":{"value":32,"roll":"15-","mod":0},"notes":"32 ED (32 rED)"},
+"edr":{"value":32,"roll":"15-","shortname":"edr","name":"Energy Resistant Defence","current":"primary","primary":{"value":32,"roll":"15-","mod":0},"secondary":{"value":32,"roll":"15-","mod":0},"notes":"32 ED (32 rED)"},
+"per":{"value":23,"roll":"14-","shortname":"per","name":"Perception Roll","current":"primary","primary":{"value":0,"roll":"14-","mod":0},"secondary":{"value":0,"roll":"14-","mod":0},"notes":""},
+"rec":{"value":23,"roll":"14-","shortname":"rec","name":"Recovery","current":"primary","primary":{"value":23,"roll":"14-","mod":0},"secondary":{"value":23,"roll":"14-","mod":0},"notes":""},
+"body":{"value":23,"roll":"14-","shortname":"body","name":"Body","current":"primary","primary":{"value":23,"roll":"14-","mod":0},"secondary":{"value":23,"roll":"14-","mod":0},"notes":""},
+"end":{"value":90,"roll":"27-","shortname":"end","name":"Endurance","current":"primary","primary":{"value":90,"roll":"27-","mod":0},"secondary":{"value":90,"roll":"27-","mod":0},"notes":""},
+"stun":{"value":90,"roll":"27-","shortname":"stun","name":"Stun","current":"primary","primary":{"value":90,"roll":"27-","mod":0},"secondary":{"value":90,"roll":"27-","mod":0},"notes":""},
+"def":{"value":0,"roll":"","shortname":"def","name":"Defence","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"}},
+"movement":{
+"run":{"current":"primary","combat":"36m","noncombat":"72m","primary":{"combat":{"description":"36m","value":36},"noncombat":{"description":"72m","value":72}},"secondary":{"combat":{"description":"36m","value":36},"noncombat":{"description":"72m","value":72}},"icon":"ui_run","notes":""},
+"fly":{"current":"primary","combat":"30m","noncombat":"240m","primary":{"combat":{"description":"30m","value":30},"noncombat":{"description":"240m","value":240}},"secondary":{"combat":{"description":"30m","value":30},"noncombat":{"description":"240m","value":240}},"icon":"ui_fly","notes":""},
+"swim":{"current":"primary","combat":"22m","noncombat":"44m","primary":{"combat":{"description":"22m","value":22},"noncombat":{"description":"44m","value":44}},"secondary":{"combat":{"description":"22m","value":22},"noncombat":{"description":"44m","value":44}},"icon":"ui_swim","notes":""},
+"leap":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_leap","notes":"4m forward, 2m upward"}},
+"skills":[
+	{"name":"Perception ","roll":"14-/20-","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"uid":1111111111111,"type":"Perception","input":"","level":"0","active":"0","base":"0","XMLID":"PERCEPTION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Perception 14-/20-"},
+	{"name":"Skill Levels ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1638693890694,"type":"Skill Levels","input":"Overall","level":"3","active":"36","base":"36","XMLID":"SKILL_LEVELS","modifiers":[],"adders":[],"option":"Overall","optionAlias":"Overall","optionID":"OVERALL","text":"+3 Overall"},
+	{"name":"Acrobatics ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"15-","uid":1638693901948,"type":"Acrobatics","input":"","level":"0","active":"3","base":"3","XMLID":"ACROBATICS","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Acrobatics 15-"},
+	{"name":"Breakfall ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"15-","uid":1638693905141,"type":"Breakfall","input":"","level":"0","active":"3","base":"3","XMLID":"BREAKFALL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Breakfall 15-"},
+	{"name":"KS (Snakes) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1638693910666,"type":"KS","input":"Snakes","level":"0","active":"3","base":"3","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Snakes 14-"},
+	{"name":"KS (VIPER) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1638693929200,"type":"KS","input":"VIPER","level":"0","active":"3","base":"3","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: VIPER 14-"},
+	{"name":"CuK (Ancient African Cultures) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1638693961836,"type":"Knowledge Skill","input":"Ancient African Cultures","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"CuK: Ancient African Cultures 11-"},
+	{"name":"Language (English) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1638693986037,"type":"Language","input":"Englishcompletely fluent","level":"0","active":"3","base":"3","XMLID":"LANGUAGES","modifiers":[],"adders":[],"option":"completely fluent","optionAlias":"completely fluent","optionID":"ACCENT","text":"Language: English (completely fluent)"},
+	{"name":"Language (Bantu) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1638694033994,"type":"Language","input":"Bantuidiomatic","level":"0","active":"4","base":"4","XMLID":"LANGUAGES","modifiers":[],"adders":[],"option":"idiomatic","optionAlias":"idiomatic","optionID":"IDIOMATIC","text":"Language: Bantu (idiomatic) (4 Active Points)"},
+	{"name":"Deduction ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1638694087588,"type":"Deduction","input":"","level":"0","active":"3","base":"3","XMLID":"DEDUCTION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Deduction 14-"},
+	{"name":"Persuasion ","stat":"PRE","everyman":false,"familiarity":false,"proficiency":false,"roll":"17-","uid":1638694092370,"type":"Persuasion","input":"","level":"0","active":"3","base":"3","XMLID":"PERSUASION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Persuasion 17-"}],
+"talents":[
+	{"name":"Universal Translator 14-","roll":"14-","uid":1638693824008,"type":"Universal Translator","input":"","level":"0","active":"20","base":"20","XMLID":"UNIVERSAL_TRANSLATOR","modifiers":[{"value":"-¼","name":"","uid":1638693912815,"type":"Limited Power","input":"Power loses about a fourth of its effectiveness","level":"0"}],"adders":[]}],
+"perks":[],
+"disads":[],
+"combatlevels":[
+	{"name":"Skill Levels","roll":"","uid":1638693890694,"type":"Skill Levels","input":"Overall","level":"3","active":"36","base":"36","XMLID":"SKILL_LEVELS","modifiers":[],"adders":[]}],
+"powers":[
+	{"name":"The Inheiritance of The Snake","uid":1638690241602,"type":"","damage":"","range":"","input":"","level":"0","end":"","active":"175","base":"175","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Eyes of Fire","uid":1638690223229,"type":"Killing Ranged","damage":"4d6","range":"600m","input":"ED","level":"4","end":"4","active":"105","base":"60","XMLID":"RKA","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1638690278824,"type":"Penetrating","damage":"4d6","range":"600m","input":"","level":"1"},{"value":"+¼","name":"","uid":1638690291889,"type":"Reduced Endurance","damage":"4d6","range":"600m","input":"Half END","level":"0"}],"adders":[]},
+	{"name":"Breath of The Hurricane","uid":1638690273977,"type":"Blast","damage":"14d6","range":"","input":"ED","level":"14","end":"6","active":"140","base":"70","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1638691116571,"type":"Double Knockback","damage":"14d6","range":"","input":"","level":"0"},{"value":"+¼","name":"","uid":1638691116591,"type":"Area Of Effect","damage":"14d6","range":"","input":"Cone","level":"8"},{"value":"+¼","name":"","uid":1638691116598,"type":"Reduced Endurance","damage":"14d6","range":"","input":"Half END","level":"0"},{"value":"-½","name":"","uid":1638691116600,"type":"No Range","damage":"14d6","range":"","input":"","level":"0"},{"value":"-¼","name":"","uid":1638691116622,"type":"Conditional Power","damage":"14d6","range":"","input":"Power does not work in Uncommon Circumstances","level":"0"}],"adders":[]},
+	{"name":"Breath of Ice","uid":1638690443083,"type":"Dispel","damage":"15d6","range":"","input":"","level":"15","end":"7","active":"157","base":"45","XMLID":"DISPEL","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+2","name":"","uid":1638690505772,"type":"Expanded Effect (x5 Characteristics or Powers simultaneously)","damage":"15d6","range":"","input":"","level":"5"},{"value":"+¼","name":"","uid":1638690668732,"type":"Area Of Effect","damage":"15d6","range":"","input":"Cone","level":"8"},{"value":"+¼","name":"","uid":1638690698864,"type":"Reduced Endurance","damage":"15d6","range":"","input":"Half END","level":"0"},{"value":"-½","name":"","uid":1638690704223,"type":"No Range","damage":"15d6","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"Shockwave","uid":1638691097614,"type":"Blast","damage":"10d6","range":"","input":"ED","level":"10","end":"5","active":"112","base":"50","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1638691153398,"type":"Double Knockback","damage":"10d6","range":"","input":"","level":"0"},{"value":"+¼","name":"","uid":1638691166845,"type":"Area Of Effect","damage":"10d6","range":"","input":"Radius","level":"16"},{"value":"+¼","name":"","uid":1638691224730,"type":"Hole In The Middle","damage":"10d6","range":"","input":"fixed size","level":"0"},{"value":"+¼","name":"","uid":1638691243875,"type":"Reduced Endurance","damage":"10d6","range":"","input":"Half END","level":"0"},{"value":"-½","name":"","uid":1638691251824,"type":"No Range","damage":"10d6","range":"","input":"","level":"0"},{"value":"-¼","name":"","uid":1638691258524,"type":"Conditional Power","damage":"10d6","range":"","input":"Power does not work in Uncommon Circumstances","level":"0"}],"adders":[]},
+	{"name":"ThunderClap","uid":1638691292475,"type":"Flash","damage":"10d6","range":"","input":"Hearing Group","level":"10","end":"3","active":"67","base":"30","XMLID":"FLASH","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":true,"special":false},"modifiers":[{"value":"+¾","name":"","uid":1638691351928,"type":"Area Of Effect","damage":"10d6","range":"","input":"Radius","level":"10"},{"value":"+¼","name":"","uid":1638691372534,"type":"Personal Immunity","damage":"10d6","range":"","input":"","level":"0"},{"value":"+¼","name":"","uid":1638691411773,"type":"Reduced Endurance","damage":"10d6","range":"","input":"Half END","level":"0"},{"value":"-½","name":"","uid":1638691461672,"type":"No Range","damage":"10d6","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"Big Wrap-Up","uid":1638691563099,"type":"Entangle","damage":"6d6, 6 PD/6 ED","range":"","input":"","level":"6","end":"6","active":"60","base":"60","XMLID":"ENTANGLE","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1638691631380,"type":"Focus","damage":"6d6, 6 PD/6 ED","range":"","input":"OIF","level":"0"},{"value":"-½","name":"","uid":1638691655574,"type":"No Range","damage":"6d6, 6 PD/6 ED","range":"","input":"","level":"0"},{"value":"-½","name":"","uid":1638691663130,"type":"Extra Time","damage":"6d6, 6 PD/6 ED","range":"","input":"Full Phase","level":"0"},{"value":"-½","name":"","uid":1638691692429,"type":"Limited Power","damage":"6d6, 6 PD/6 ED","range":"","input":"Power loses about a third of its effectiveness","level":"0"},{"value":"-0","name":"","uid":1638691724134,"type":"Side Effects","damage":"6d6, 6 PD/6 ED","range":"","input":"Minor Side Effect","level":"0"}],"adders":[]},
+	{"name":"Daughter of The Sun","uid":1638691744476,"type":"Absorption","damage":"24 BODY","range":"","input":"half to BODY, half to ENDenergy","level":"24","end":"0","active":"48","base":"24","XMLID":"ABSORPTION","strMod":false,"class":{"attack":false,"mental":false,"adjustment":true,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+1","name":"","uid":1638691868694,"type":"Delayed Return Rate","damage":"24 BODY","range":"","input":"5 Points per Minute","level":"0"},{"value":"-¼","name":"","uid":1638691882847,"type":"Limited Phenomena","damage":"24 BODY","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"Her Wrath Falls Like The Storm","uid":1638691903411,"type":"Naked Advantage","damage":"","range":"","input":"70 STR","level":"70","end":"1","active":"52","base":"70","XMLID":"NAKEDMODIFIER","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[{"value":"+½","name":"","uid":1638692033948,"type":"Autofire","damage":"","range":"","input":"5 Shots","level":"0"},{"value":"+½","name":"","uid":1638692041087,"type":"Reduced Endurance","damage":"","range":"","input":"Half END","level":"0"}],"adders":[]},
+	{"name":"Nothing Is Beyond Her Reach","uid":1638692004237,"type":"Naked Advantage","damage":"","range":"","input":"STR","level":"70","end":"1","active":"21","base":"70","XMLID":"NAKEDMODIFIER","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[{"value":"+¼","name":"","uid":1638692109204,"type":"Area Of Effect","damage":"","range":"","input":"Radius","level":"2"},{"value":"+¼","name":"","uid":1638692200626,"type":"Reduced Endurance","damage":"","range":"","input":"Half END","level":"0"}],"adders":[]},
+	{"name":"No Spirit Can Hide From Her","uid":1638692168889,"type":"Naked Advantage","damage":"","range":"","input":"STR","level":"70","end":"1","active":"44","base":"70","XMLID":"NAKEDMODIFIER","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[{"value":"+½","name":"","uid":1638692242976,"type":"Affects Desolidified","damage":"","range":"","input":"Any form of Desolidification","level":"0"},{"value":"+¼","name":"","uid":1638692267692,"type":"Reduced Endurance","damage":"","range":"","input":"Half END","level":"0"}],"adders":[]},
+	{"name":"Her Body is solid As Stone","uid":1638692232477,"type":"Blast","damage":"9d6","range":"450m","input":"ED","level":"9","end":"8","active":"79","base":"45","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1638692338491,"type":"Area Of Effect","damage":"9d6","range":"450m","input":"Surface","level":"1"},{"value":"+½","name":"","uid":1638692642798,"type":"Constant","damage":"9d6","range":"450m","input":"","level":"0"},{"value":"-¼","name":"","uid":1638692691790,"type":"Limited Power","damage":"9d6","range":"450m","input":"Power loses about a fourth of its effectiveness","level":"0"}],"adders":[]},
+	{"name":"No Weapon Can Make Her Bleed","uid":1638692737762,"type":"PD","damage":"","range":"","input":"","level":"0","end":"","active":"16","base":"0","XMLID":"PD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1638692811998,"type":"Resistant","damage":"","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"No Weapon Can Make Her Bleed","uid":1638692764945,"type":"ED","damage":"","range":"","input":"","level":"0","end":"","active":"16","base":"0","XMLID":"ED","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1638692842626,"type":"Resistant","damage":"","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"She is Greater Than the Elements, Greater Than the Ages","uid":1638692806049,"type":"Life Support","damage":"","range":"","input":"","level":"0","end":"0","active":"40","base":"40","XMLID":"LIFESUPPORT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[{"name":"No Name Supplied","uid":1638692892244,"type":"Eating","damage":"","range":"","input":"Character does not eat","level":"0"},{"name":"No Name Supplied","uid":1638692913539,"type":"Immunity","damage":"","range":"","input":"All terrestrial poisons","level":"0"},{"name":"No Name Supplied","uid":1638692907634,"type":"Immunity","damage":"","range":"","input":"All terrestrial diseases","level":"0"},{"name":"No Name Supplied","uid":1638692903595,"type":"Longevity","damage":"","range":"","input":"Immortal","level":"0"},{"name":"No Name Supplied","uid":1638692897177,"type":"Safe in High Pressure","damage":"","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1638692897970,"type":"Safe in High Radiation","damage":"","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1638692898573,"type":"Safe in Intense Cold","damage":"","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1638692899081,"type":"Safe in Intense Heat","damage":"","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1638692896734,"type":"Safe in Low Pressure/Vacuum","damage":"","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1638692888787,"type":"Self-Contained Breathing","damage":"","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1638692895201,"type":"Sleeping","damage":"","range":"","input":"Character does not sleep","level":"0"}]},
+	{"name":"Her Senses May Not Be Diminished","uid":1638692886734,"type":"Flash Defense","damage":"(10 points)","range":"","input":"Hearing Group","level":"10","end":"0","active":"10","base":"10","XMLID":"FLASHDEFENSE","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[]},
+	{"name":"Her Senses May Not Be Diminished","uid":1638692994796,"type":"Flash Defense","damage":"(10 points)","range":"","input":"Sight Group","level":"10","end":"0","active":"10","base":"10","XMLID":"FLASHDEFENSE","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[]},
+	{"name":"She May Not Be Toppled","uid":1638692955466,"type":"Knockback Resistance","damage":"-10m","range":"","input":"","level":"10","end":"0","active":"10","base":"10","XMLID":"KBRESISTANCE","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[]},
+	{"name":"Her Will May Not Be Contravened","uid":1638692976305,"type":"Mental Defense","damage":"24 points total","range":"","input":"","level":"24","end":"0","active":"24","base":"24","XMLID":"MENTALDEFENSE","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[]},
+	{"name":"Her Spirit and Body Are As Indomitable As The Snake","uid":1638693004895,"type":"Power Defense","damage":"20 points","range":"","input":"","level":"20","end":"0","active":"20","base":"20","XMLID":"POWERDEFENSE","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[]},
+	{"name":"She Will Not Die","uid":1638693037411,"type":"Regeneration","damage":"1 BODY per Turn","range":"","input":"Turn","level":"1","end":"0","active":"36","base":"36","XMLID":"REGENERATION","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[{"name":"No Name Supplied","uid":1638693103292,"type":"Resurrection","damage":"1 BODY per Turn","range":"","input":"","level":"0"}]},
+	{"name":"She Flies Like The Wind","uid":1638693092761,"type":"Flight","damage":"30m","range":"","input":"","level":"30","end":"0","active":"90","base":"40","XMLID":"FLIGHT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1638693336071,"type":"Rapid Noncombat Movement","damage":"30m","range":"","input":"","level":"0"},{"value":"+½","name":"","uid":1638693336076,"type":"Reduced Endurance","damage":"30m","range":"","input":"0 END","level":"0"},{"value":"+¼","name":"","uid":1638693340163,"type":"Combat Acceleration/Deceleration","damage":"30m","range":"","input":"","level":"0"},{"value":"+¼","name":"","uid":1638693345249,"type":"Usable [As Second Mode Of Movement]","damage":"30m","range":"","input":"","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1638693336070,"type":"x4 Noncombat","damage":"30m","range":"","input":"","level":"2"}]},
+	{"name":"No Name Supplied","uid":1638693179351,"type":"Running","damage":"","range":"","input":"","level":"0","end":"1","active":"9","base":"0","XMLID":"RUNNING","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1638693313066,"type":"Combat Acceleration/Deceleration","damage":"","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"Nothing May Hide From Her","uid":1638693449037,"type":"Penetrative","damage":"","range":"","input":"Sight Group","level":"0","end":"0","active":"15","base":"15","XMLID":"PENETRATIVE","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[]},
+	{"name":"She Sees With The Wind","uid":1638693560356,"type":"Targeting","damage":"","range":"","input":"Hearing Group","level":"0","end":"0","active":"20","base":"20","XMLID":"TARGETINGSENSE","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[]},
+	{"name":"She Sees The Hidden Fires","uid":1638693582548,"type":"Infrared Perception","damage":"","range":"","input":"","level":"0","end":"0","active":"5","base":"5","XMLID":"INFRAREDPERCEPTION","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[]},
+	{"name":"She Sees In The Moonlight","uid":1638693611973,"type":"Ultraviolet Perception","damage":"","range":"","input":"","level":"0","end":"0","active":"5","base":"5","XMLID":"ULTRAVIOLETPERCEPTION","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[]},
+	{"name":"Her Hearing Is Keener Than Man","uid":1638693630948,"type":"Ultrasonic Perception","damage":"","range":"","input":"","level":"0","end":"0","active":"3","base":"3","XMLID":"ULTRASONICPERCEPTION","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[]},
+	{"name":"She Hears Hidden Voices","uid":1638693661584,"type":"High Range Radio Perception","damage":"","range":"","input":"","level":"0","end":"0","active":"12","base":"12","XMLID":"HRRP","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[]},
+	{"name":"She Knows The Workings Of The Mind","uid":1638693694830,"type":"Mental Awareness","damage":"","range":"","input":"","level":"0","end":"0","active":"5","base":"5","XMLID":"MENTALAWARENESS","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[]},
+	{"name":"Her Gaze Is As Keen As Dragons","uid":1638693771082,"type":"Enhanced Perception","damage":"","range":"","input":"Sight Group","level":"6","end":"0","active":"12","base":"12","XMLID":"ENHANCEDPERCEPTION","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[]}],
+"equipment":[],
+"martialArts":[	
+	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Normal Attack","time":"½","level":"0","active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false}],
+"rolls":[
+	{"name":"Eyes of Fire","uid":1638690223229,"gameEdition":6,"tool":"4d6, Killing Ranged (vs. ED) 600m, 4 end.","diceMod":0,"dice":4,"halfDice":false,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Breath of The Hurricane","uid":1638690273977,"gameEdition":6,"tool":"14d6, Blast (vs. ED) , 6 end.","diceMod":0,"dice":14,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Breath of Ice","uid":1638690443083,"gameEdition":6,"tool":"15d6, Dispel , 7 end.","diceMod":0,"dice":15,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Shockwave","uid":1638691097614,"gameEdition":6,"tool":"10d6, Blast (vs. ED) , 5 end.","diceMod":0,"dice":10,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"ThunderClap","uid":1638691292475,"gameEdition":6,"tool":"10d6, Flash (vs. Hearing Group) , 3 end.","diceMod":0,"dice":10,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Big Wrap-Up","uid":1638691563099,"gameEdition":6,"tool":"6d6, 6 PD/6 ED, Entangle , 6 end.","diceMod":0,"dice":6,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Her Body is solid As Stone","uid":1638692232477,"gameEdition":6,"tool":"9d6, Blast (vs. ED) 450m, 8 end.","diceMod":0,"dice":9,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0}],
+"lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,212 @@
+{
+"appversion":"20210301",
+"exportid":"20220215212342",
+"name":"Cantrip",
+"playername":"",
+"version":3.1,
+"edition":6,
+"stats":{
+"siz":{"value":0,"roll":"","shortname":"siz","name":"Size","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"str":{"value":10,"roll":"11-","shortname":"str","name":"Strength","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":"HTH Damage 2d6  END [1]"},
+"dex":{"value":18,"roll":"13-","shortname":"dex","name":"Dexterity","current":"primary","primary":{"value":18,"roll":"13-","mod":0},"secondary":{"value":18,"roll":"13-","mod":0},"notes":""},
+"con":{"value":10,"roll":"11-","shortname":"con","name":"Constitution","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":""},
+"int":{"value":18,"roll":"13-","shortname":"int","name":"Intelligence","current":"primary","primary":{"value":18,"roll":"13-","mod":0},"secondary":{"value":18,"roll":"13-","mod":0},"notes":"PER Roll 13-"},
+"ego":{"value":25,"roll":"14-","shortname":"ego","name":"Ego","current":"primary","primary":{"value":25,"roll":"14-","mod":0},"secondary":{"value":25,"roll":"14-","mod":0},"notes":""},
+"com":{"value":0,"roll":"","shortname":"com","name":"Comliness","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"pre":{"value":10,"roll":"11-","shortname":"pre","name":"Presence","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":"PRE Attack: 2d6"},
+"spd":{"value":4,"roll":"10-","shortname":"spd","name":"Speed","current":"primary","primary":{"value":4,"roll":"10-","mod":0},"secondary":{"value":4,"roll":"10-","mod":0},"notes":"Phases: 3, 6, 9, 12"},
+"ocv":{"value":5,"roll":"10-","shortname":"ocv","name":"Offensive Combat Value","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":5,"roll":"10-","mod":0},"notes":""},
+"dcv":{"value":6,"roll":"10-","shortname":"dcv","name":"Defensive Combat Value","current":"primary","primary":{"value":6,"roll":"10-","mod":0},"secondary":{"value":6,"roll":"10-","mod":0},"notes":""},
+"omcv":{"value":7,"roll":"10-","shortname":"omcv","name":"Offensive Mental Combat Value","current":"primary","primary":{"value":7,"roll":"10-","mod":0},"secondary":{"value":7,"roll":"10-","mod":0},"notes":""},
+"dmcv":{"value":7,"roll":"10-","shortname":"dmcv","name":"Defensive Mental Combat Value","current":"primary","primary":{"value":7,"roll":"10-","mod":0},"secondary":{"value":7,"roll":"10-","mod":0},"notes":""},
+"pd":{"value":4,"roll":"10-","shortname":"pd","name":"Physical Defence","current":"primary","primary":{"value":4,"roll":"10-","mod":0},"secondary":{"value":24,"roll":"14-","mod":0},"notes":"4/24 PD (0/20 rPD)"},
+"pdr":{"value":0,"roll":"10-","shortname":"pdr","name":"Physical Resistant Defence","current":"primary","primary":{"value":0,"roll":"10-","mod":0},"secondary":{"value":20,"roll":"14-","mod":0},"notes":"4/24 PD (0/20 rPD)"},
+"ed":{"value":4,"roll":"10-","shortname":"ed","name":"Energy Defence","current":"primary","primary":{"value":4,"roll":"10-","mod":0},"secondary":{"value":24,"roll":"14-","mod":0},"notes":"4/24 ED (0/20 rED)"},
+"edr":{"value":4,"roll":"10-","shortname":"edr","name":"Energy Resistant Defence","current":"primary","primary":{"value":4,"roll":"10-","mod":0},"secondary":{"value":24,"roll":"14-","mod":0},"notes":"4/24 ED (0/20 rED)"},
+"per":{"value":18,"roll":"13-","shortname":"per","name":"Perception Roll","current":"primary","primary":{"value":0,"roll":"13-","mod":0},"secondary":{"value":0,"roll":"13-","mod":0},"notes":""},
+"rec":{"value":4,"roll":"10-","shortname":"rec","name":"Recovery","current":"primary","primary":{"value":4,"roll":"10-","mod":0},"secondary":{"value":4,"roll":"10-","mod":0},"notes":""},
+"body":{"value":10,"roll":"11-","shortname":"body","name":"Body","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":""},
+"end":{"value":28,"roll":"15-","shortname":"end","name":"Endurance","current":"primary","primary":{"value":28,"roll":"15-","mod":0},"secondary":{"value":28,"roll":"15-","mod":0},"notes":""},
+"stun":{"value":30,"roll":"15-","shortname":"stun","name":"Stun","current":"primary","primary":{"value":30,"roll":"15-","mod":0},"secondary":{"value":30,"roll":"15-","mod":0},"notes":""},
+"def":{"value":0,"roll":"","shortname":"def","name":"Defence","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"}},
+"movement":{
+"run":{"current":"primary","combat":"12m","noncombat":"24m","primary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"secondary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"icon":"ui_run","notes":""},
+"fly":{"current":"primary","combat":"32m","noncombat":"64m","primary":{"combat":{"description":"32m","value":32},"noncombat":{"description":"64m","value":64}},"secondary":{"combat":{"description":"32m","value":32},"noncombat":{"description":"64m","value":64}},"icon":"ui_fly","notes":""},
+"swim":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_swim","notes":""},
+"leap":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_leap","notes":"4m forward, 2m upward"}},
+"skills":[
+	{"name":"Perception ","roll":"13-","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"uid":1111111111111,"type":"Perception","input":"","level":"0","active":"0","base":"0","XMLID":"PERCEPTION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Perception 13-"},
+	{"name":"Acting ","stat":"PRE","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1625963874458,"type":"Acting","input":"","level":"0","active":"3","base":"3","XMLID":"ACTING","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Acting 11-"},
+	{"name":"Magic ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1625963902619,"type":"Power","input":"","level":"3","active":"11","base":"11","XMLID":"POWERSKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Magic 14-"},
+	{"name":"PS (Play Clarinet) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1625963953862,"type":"Professional Skill","input":"Play Clarinet","level":"0","active":"2","base":"2","XMLID":"PROFESSIONAL_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"PS: Play Clarinet 11-"},
+	{"name":"KS (Music) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1625963972218,"type":"KS","input":"Music","level":"1","active":"3","base":"3","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Music 12-"},
+	{"name":"KS (Stage Music) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1625964024056,"type":"KS","input":"Stage Music","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Stage Music 11-"},
+	{"name":"KS (Superhuman World) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1625964106985,"type":"KS","input":"Superhuman World","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Superhuman World 11-"},
+	{"name":"KS (Television Shows) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1625964123934,"type":"KS","input":"Television Shows","level":"1","active":"3","base":"3","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Television Shows 12-"},
+	{"name":"Language (French) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1625964140916,"type":"Language","input":"Frenchfluent conversation","level":"0","active":"2","base":"2","XMLID":"LANGUAGES","modifiers":[],"adders":[],"option":"fluent conversation","optionAlias":"fluent conversation","optionID":"FLUENT","text":"Language: French (fluent conversation)"}],
+"talents":[],
+"perks":[
+	{"name":"Fringe Benefit ","roll":"","uid":1625963834755,"type":"Fringe Benefit","input":"","level":"0","active":"1","base":"1","XMLID":"FRINGE_BENEFIT","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1625964404027,"type":"Membership","input":"","level":"0"}]}],
+"disads":[
+	{"name":"Distinctive Features","roll":"","uid":1625968845196,"type":"Distinctive Features","input":"Can't Shut Up","level":"0","active":"10","base":"10","XMLID":"DISTINCTIVEFEATURES","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1625969401821,"type":"Concealability","input":"Concealable","level":"0"},{"name":"No Name Supplied","uid":1625969401827,"type":"Reaction","input":"Noticed and Recognizable","level":"0"},{"name":"No Name Supplied","uid":1625969401833,"type":"Sensing","input":"Detectable By Commonly-Used Senses","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1625968872716,"type":"Psychological Complication","input":"Tends To Tell ＂Little White Lies＂","level":"0","active":"10","base":"10","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1625969429493,"type":"Situation Is","input":"Common","level":"0"},{"name":"No Name Supplied","uid":1625969429499,"type":"Intensity Is","input":"Moderate","level":"0"}]},
+	{"name":"Social Complication","roll":"","uid":1625968915905,"type":"Social Complication","input":"Minor","level":"0","active":"5","base":"5","XMLID":"SOCIALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1625969472911,"type":"Circumstances Occur","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1625969472917,"type":"Effects of Restrictions","input":"Minor","level":"0"}]},
+	{"name":"Social Complication","roll":"","uid":1625968940456,"type":"Social Complication","input":"Secret Identity (Cindy Smithers)","level":"0","active":"15","base":"15","XMLID":"SOCIALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1625969497681,"type":"Circumstances Occur","input":"Frequently","level":"0"},{"name":"No Name Supplied","uid":1625969497687,"type":"Effects of Restrictions","input":"Major","level":"0"}]},
+	{"name":"Unluck: 2d6","roll":"","uid":1625968965727,"type":"Unluck: 2d6","input":"","level":"2","active":"10","base":"10","XMLID":"UNLUCK","modifiers":[],"adders":[]},
+	{"name":"Vulnerability","roll":"","uid":1625968972732,"type":"Vulnerability","input":"Presence Attacks","level":"0","active":"15","base":"15","XMLID":"VULNERABILITY","modifiers":[{"value":"x1","name":"","uid":1625969538477,"type":"Vulnerability Multiplier","input":"1½x Effect","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1625969530145,"type":"The Attack Is","input":"Very Common","level":"0"}]}],
+"combatlevels":[],
+"powers":[
+	{"name":"The Magic Hat of Sousieloos The Magnificent","uid":1625965226132,"type":"","damage":"","range":"","input":"","level":"0","end":"","active":"120","base":"80","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-1","name":"","uid":1644981711910,"type":"Focus","damage":"","range":"","input":"OAF","level":"0"}],"adders":[]},
+	{"name":"Abra-KA-BOOM","uid":1625964794958,"type":"Blast","damage":"16d6","range":"800m","input":"ED","level":"16","end":"8","active":"80","base":"80","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Sleepyhead Time","uid":1625965265765,"type":"Mental Blast","damage":"8d6","range":"LOS","input":"","level":"8","end":"8","active":"80","base":"80","XMLID":"EGOATTACK","strMod":false,"class":{"attack":true,"mental":true,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"No Touching!","uid":1625965288899,"type":"Barrier","damage":"","range":"600m","input":"","level":"20","end":"6","active":"60","base":"60","XMLID":"FORCEWALL","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Really! I Mean It This Time!","uid":1625965415047,"type":"Barrier","damage":"","range":"600m","input":"","level":"36","end":"6","active":"60","base":"60","XMLID":"FORCEWALL","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Watch Me Pull A Rabbit Out Of My Hat","uid":1625966277683,"type":"Teleportation","damage":"8m","range":"80m","input":"","level":"8","end":"3","active":"30","base":"8","XMLID":"TELEPORTATION","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+1¼","name":"","uid":1625966897122,"type":"Usable On Others","damage":"8m","range":"80m","input":"Usable As Attack","level":"0"},{"value":"+1","name":"","uid":1625967839607,"type":"Attack Versus Alternate Defense","damage":"8m","range":"80m","input":"Power Defense, Teleportation, or Extra-Dimensional MovementVery Common -> Uncommon","level":"0"},{"value":"+½","name":"","uid":1625968028411,"type":"Ranged","damage":"8m","range":"80m","input":"Ranged","level":"0"},{"value":"-¼","name":"","uid":1625968046118,"type":"Limited Power","damage":"8m","range":"80m","input":"Power loses about a fourth of its effectiveness","level":"0"}],"adders":[]},
+	{"name":"The Magic Hat Of Sousieloos The Magnificent","uid":1625968100736,"type":"Variable Power Pool","damage":"","range":"","input":"Magic Pool","level":"60","end":"","active":"75","base":"75","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[{"name":"No Name Supplied","uid":1644981855206,"type":"","damage":"","range":"","input":"","level":"30"}]},
+	{"name":"Rose-Colored Glasses","uid":1625968051748,"type":"Flash","damage":"3d6","range":"150m","input":"Sight Group","level":"3","end":"1","active":"15","base":"15","XMLID":"FLASH","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":true,"special":false},"modifiers":[{"value":"-1","name":"","uid":1625968679433,"type":"Focus","damage":"3d6","range":"150m","input":"OAF","level":"0"}],"adders":[]},
+	{"name":"Shut Up!","uid":1625968160692,"type":"Darkness","damage":"1m radius","range":"30m","input":"Hearing Group","level":"1","end":"1","active":"11","base":"3","XMLID":"DARKNESS","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":true,"special":false},"modifiers":[{"value":"+1","name":"","uid":1625968777106,"type":"Attack Versus Alternate Defense","damage":"1m radius","range":"30m","input":"Power DefenseVery Common -> Uncommon","level":"0"},{"value":"+1¼","name":"","uid":1625968803664,"type":"Usable On Others","damage":"1m radius","range":"30m","input":"Usable As Attack","level":"0"},{"value":"+½","name":"","uid":1625968848338,"type":"Ranged","damage":"1m radius","range":"30m","input":"Ranged","level":"0"}],"adders":[]},
+	{"name":"Mental Shields","uid":1625968676351,"type":"Mental Defense","damage":"14 points total","range":"","input":"","level":"14","end":"0","active":"14","base":"14","XMLID":"MENTALDEFENSE","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":true},"modifiers":[{"value":"-1","name":"","uid":1625969243587,"type":"Focus","damage":"14 points total","range":"","input":"OAF","level":"0"}],"adders":[]},
+	{"name":"Levitation","uid":1625968732266,"type":"Flight","damage":"32m","range":"","input":"","level":"32","end":"0","active":"48","base":"32","XMLID":"FLIGHT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1644981906866,"type":"Reduced Endurance","damage":"32m","range":"","input":"0 END","level":"0"},{"value":"-1","name":"","uid":1644981906894,"type":"Focus","damage":"32m","range":"","input":"OAF","level":"0"}],"adders":[]},
+	{"name":"Force Field","uid":1625972978788,"type":"Resistant Protection","damage":"","range":"","input":"","level":"40","end":"6","active":"60","base":"60","XMLID":"FORCEFIELD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1644981881402,"type":"Costs Endurance","damage":"","range":"","input":"Costs END Every Phase","level":"0"},{"value":"-1","name":"","uid":1644981881430,"type":"Focus","damage":"","range":"","input":"OAF","level":"0"}],"adders":[]}],
+"equipment":[],
+"martialArts":[	
+	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Normal Attack","time":"½","level":"0","active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false}],
+"rolls":[
+	{"name":"Abra-KA-BOOM","uid":1625964794958,"gameEdition":6,"tool":"16d6, Blast (vs. ED) 800m, 8 end.","diceMod":0,"dice":16,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Sleepyhead Time","uid":1625965265765,"gameEdition":6,"tool":"8d6, Mental Blast LOS, 8 end.","diceMod":0,"dice":8,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Watch Me Pull A Rabbit Out Of My Hat","uid":1625966277683,"gameEdition":6,"tool":"8m, Teleportation 80m, 3 end.","diceMod":0,"dice":0,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Rose-Colored Glasses","uid":1625968051748,"gameEdition":6,"tool":"3d6, Flash (vs. Sight Group) 150m, 1 end.","diceMod":0,"dice":3,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Shut Up!","uid":1625968160692,"gameEdition":6,"tool":"1m radius, Darkness (vs. Hearing Group) 30m, 1 end.","diceMod":0,"dice":0,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0}],
+"lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

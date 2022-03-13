@@ -1,0 +1,196 @@
+{
+"appversion":"20210301",
+"exportid":"20210727011612",
+"name":"Invictor Imperius",
+"playername":"",
+"version":3.1,
+"edition":6,
+"stats":{
+"siz":{"value":33,"roll":"16-","shortname":"siz","name":"Size","current":"primary","primary":{"value":33,"roll":"16-","mod":0},"secondary":{"value":33,"roll":"16-","mod":0},"notes":"Length 4,096m,  Width 2,048m,  Height 2,048m,  Volume 17,179,869,184m½3  Mass 858,993.5 kton,  OCV +22,  KB -33"},
+"str":{"value":175,"roll":"44-","shortname":"str","name":"Strength","current":"primary","primary":{"value":175,"roll":"44-","mod":0},"secondary":{"value":175,"roll":"44-","mod":0},"notes":"HTH Damage 35d6  END [17]"},
+"dex":{"value":12,"roll":"11-","shortname":"dex","name":"Dexterity","current":"primary","primary":{"value":12,"roll":"11-","mod":0},"secondary":{"value":12,"roll":"11-","mod":0},"notes":""},
+"con":{"value":0,"roll":"","shortname":"con","name":"Constitution","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"int":{"value":0,"roll":"","shortname":"int","name":"Intelligence","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"ego":{"value":0,"roll":"","shortname":"ego","name":"Ego","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"com":{"value":0,"roll":"","shortname":"com","name":"Comliness","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"pre":{"value":0,"roll":"","shortname":"pre","name":"Presence","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"spd":{"value":4,"roll":"10-","shortname":"spd","name":"Speed","current":"primary","primary":{"value":4,"roll":"10-","mod":0},"secondary":{"value":4,"roll":"10-","mod":0},"notes":"Phases: 3, 6, 9, 12"},
+"ocv":{"value":12,"roll":"11-","shortname":"ocv","name":"Offensive Combat Value","current":"primary","primary":{"value":12,"roll":"11-","mod":0},"secondary":{"value":12,"roll":"11-","mod":0},"notes":""},
+"dcv":{"value":4,"roll":"10-","shortname":"dcv","name":"Defensive Combat Value","current":"primary","primary":{"value":4,"roll":"10-","mod":0},"secondary":{"value":4,"roll":"10-","mod":0},"notes":""},
+"omcv":{"value":0,"roll":"","shortname":"omcv","name":"Offensive Mental Combat Value","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"dmcv":{"value":0,"roll":"","shortname":"dmcv","name":"Defensive Mental Combat Value","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"pd":{"value":30,"roll":"15-","shortname":"pd","name":"Physical Defence","current":"primary","primary":{"value":30,"roll":"15-","mod":0},"secondary":{"value":70,"roll":"23-","mod":0},"notes":"30/70 PD (30/70 rPD)"},
+"pdr":{"value":30,"roll":"15-","shortname":"pdr","name":"Physical Resistant Defence","current":"primary","primary":{"value":30,"roll":"15-","mod":0},"secondary":{"value":70,"roll":"23-","mod":0},"notes":"30/70 PD (30/70 rPD)"},
+"ed":{"value":30,"roll":"15-","shortname":"ed","name":"Energy Defence","current":"primary","primary":{"value":30,"roll":"15-","mod":0},"secondary":{"value":70,"roll":"23-","mod":0},"notes":"30/70 ED (30/70 rED)"},
+"edr":{"value":30,"roll":"15-","shortname":"edr","name":"Energy Resistant Defence","current":"primary","primary":{"value":30,"roll":"15-","mod":0},"secondary":{"value":70,"roll":"23-","mod":0},"notes":"30/70 ED (30/70 rED)"},
+"per":{"value":0,"roll":"","shortname":"per","name":"Perception","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"rec":{"value":0,"roll":"","shortname":"rec","name":"Recovery","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"body":{"value":400,"roll":"89-","shortname":"body","name":"Body","current":"primary","primary":{"value":400,"roll":"89-","mod":0},"secondary":{"value":400,"roll":"89-","mod":0},"notes":""},
+"end":{"value":0,"roll":"","shortname":"end","name":"Endurance","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"stun":{"value":0,"roll":"","shortname":"stun","name":"Stun","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"def":{"value":0,"roll":"","shortname":"def","name":"Defence","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"}},
+"movement":{
+"run":{"current":"primary","combat":"12m","noncombat":"24m","primary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"secondary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"icon":"ui_run","notes":""},
+"fly":{"current":"primary","combat":"120m","noncombat":"960m","primary":{"combat":{"description":"120m","value":120},"noncombat":{"description":"960m","value":960}},"secondary":{"combat":{"description":"120m","value":120},"noncombat":{"description":"960m","value":960}},"icon":"ui_fly","notes":""},
+"swim":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_swim","notes":""},
+"teleport":{"current":"primary","combat":"20m","noncombat":"40m","primary":{"combat":{"description":"20m","value":20},"noncombat":{"description":"40m","value":40}},"secondary":{"combat":{"description":"20m","value":20},"noncombat":{"description":"40m","value":40}},"icon":"ui_teleport","notes":""}},
+"skills":[
+	{"name":"Perception ","roll":"","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"uid":1111111111111,"type":"Perception","input":"","level":"0","active":"0","base":"0","XMLID":"PERCEPTION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Perception "}],
+"talents":[],
+"perks":[],
+"disads":[],
+"combatlevels":[],
+"powers":[
+	{"name":"Hyperspace Bridge","uid":1627358313243,"type":"Flight","damage":"120m","range":"","input":"","level":"120","end":"13","active":"130","base":"130","XMLID":"FLIGHT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-1½","name":"","uid":1627360602994,"type":"Focus","damage":"120m","range":"","input":"OIF","level":"0"},{"value":"-¼","name":"","uid":1627360613868,"type":"Costs Endurance","damage":"120m","range":"","input":"Only Costs END to Activate","level":"0"},{"value":"-1½","name":"","uid":1627360630488,"type":"Side Effects","damage":"120m","range":"","input":"Extreme Side Effect","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1627360464505,"type":"x4 Noncombat","damage":"120m","range":"","input":"","level":"2"}]},
+	{"name":"Transdimensional Generator","uid":1627358423674,"type":"Endurance Reserve","damage":"","range":"","input":"","level":"900","end":"0","active":"425","base":"225","XMLID":"ENDURANCERESERVE","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[{"value":"-¼","name":"","uid":1627358666134,"type":"Limited Power","damage":"","range":"","input":"Power loses about a fourth of its effectiveness","level":"0"},{"value":"-1½","name":"","uid":1627358691279,"type":"Focus","damage":"","range":"","input":"OIF","level":"0"}],"adders":[]},
+	{"name":"Auxiliary Antimatter Power","uid":1627359936264,"type":"Endurance Reserve","damage":"","range":"","input":"","level":"240","end":"0","active":"120","base":"60","XMLID":"ENDURANCERESERVE","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[{"value":"-¼","name":"","uid":1627359939831,"type":"Limited Power","damage":"","range":"","input":"Power loses about a fourth of its effectiveness","level":"0"},{"value":"-1½","name":"","uid":1627359939865,"type":"Focus","damage":"","range":"","input":"OIF","level":"0"}],"adders":[]},
+	{"name":"Hyperspace Shunt Engine","uid":1627360033489,"type":"Multipower","damage":"","range":"","input":"","level":"0","end":"","active":"60","base":"60","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-1½","name":"","uid":1627360060036,"type":"Focus","damage":"","range":"","input":"OIF","level":"0"}],"adders":[]},
+	{"name":"Long Range FTL Travel","uid":1627359940873,"type":"Teleportation","damage":"10m","range":"","input":"","level":"10","end":"24","active":"60","base":"10","XMLID":"TELEPORTATION","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+5","name":"","uid":1627360179881,"type":"MegaScale","damage":"10m","range":"","input":"","level":"16"},{"value":"-1½","name":"","uid":1627360208421,"type":"Focus","damage":"10m","range":"","input":"OIF","level":"0"},{"value":"-1½","name":"","uid":1627360225357,"type":"Extra Time","damage":"10m","range":"","input":"1 Minute","level":"0"},{"value":"-½","name":"","uid":1627360260653,"type":"Costs Endurance","damage":"10m","range":"","input":"Costs END Every Phase","level":"0"},{"value":"-1½","name":"","uid":1627360280260,"type":"Increased Endurance Cost","damage":"10m","range":"","input":"x4 END","level":"0"}],"adders":[]},
+	{"name":"Short Range FTL Travel","uid":1627360128877,"type":"Teleportation","damage":"10m","range":"","input":"","level":"10","end":"16","active":"37","base":"10","XMLID":"TELEPORTATION","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+2¾","name":"","uid":1627360383803,"type":"MegaScale","damage":"10m","range":"","input":"","level":"7"},{"value":"-1½","name":"","uid":1627360396320,"type":"Focus","damage":"10m","range":"","input":"OIF","level":"0"},{"value":"-¼","name":"","uid":1627360412469,"type":"Costs Endurance","damage":"10m","range":"","input":"Only Costs END to Activate","level":"0"},{"value":"-¾","name":"","uid":1627360418132,"type":"Increased Endurance Cost","damage":"10m","range":"","input":"x4 END","level":"0"}],"adders":[]},
+	{"name":"Main Ultra Laser Cannon","uid":1627360517321,"type":"Killing Ranged","damage":"12d6","range":"115,200m","input":"ED","level":"12","end":"45","active":"450","base":"180","XMLID":"RKA","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-1","name":"","uid":1627360818405,"type":"Focus","damage":"12d6","range":"115,200m","input":"OIF","level":"0"},{"value":"-¾","name":"","uid":1627360832456,"type":"Limited Arc Of Fire","damage":"12d6","range":"115,200m","input":"60 degrees","level":"0"},{"value":"+1½","name":"","uid":1627360791698,"type":"Increased Maximum Range","damage":"12d6","range":"115,200m","input":"","level":"6"}],"adders":[]},
+	{"name":"Secondary Ultra Laser Cannon","uid":1627360628918,"type":"Killing Ranged","damage":"10d6","range":"48,000m","input":"ED","level":"10","end":"34","active":"337","base":"150","XMLID":"RKA","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-1","name":"","uid":1627360892832,"type":"Focus","damage":"10d6","range":"48,000m","input":"OIF","level":"0"},{"value":"-½","name":"","uid":1627360917007,"type":"Limited Arc Of Fire","damage":"10d6","range":"48,000m","input":"60 degrees","level":"0"},{"value":"+1¼","name":"","uid":1627360882796,"type":"Increased Maximum Range","damage":"10d6","range":"48,000m","input":"","level":"5"}],"adders":[]},
+	{"name":"Antimatter Missiles","uid":1627360727090,"type":"Killing Ranged","damage":"10d6","range":"384,000m","input":"ED","level":"10","end":"[125]","active":"900","base":"150","XMLID":"RKA","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1627360981133,"type":"Area Of Effect","damage":"10d6","range":"384,000m","input":"Radius","level":"20"},{"value":"+1¼","name":"","uid":1627361029196,"type":"MegaScale","damage":"10d6","range":"384,000m","input":"","level":"1"},{"value":"+½","name":"","uid":1627361090405,"type":"Indirect","damage":"10d6","range":"384,000m","input":"Source Point is the Character, path can change with every use","level":"0"},{"value":"+¾","name":"","uid":1627361167509,"type":"Charges","damage":"10d6","range":"384,000m","input":"125","level":"0"},{"value":"-1","name":"","uid":1627361187204,"type":"Focus","damage":"10d6","range":"384,000m","input":"OIF","level":"0"},{"value":"-¼","name":"","uid":1627361199425,"type":"Can Be Deflected","damage":"10d6","range":"384,000m","input":"","level":"0"},{"value":"+2","name":"","uid":1627361140753,"type":"Increased Maximum Range","damage":"10d6","range":"384,000m","input":"","level":"8"}],"adders":[]},
+	{"name":"Force-Field Generator","uid":1627361000757,"type":"Resistant Protection","damage":"","range":"","input":"","level":"80","end":"24","active":"120","base":"120","XMLID":"FORCEFIELD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-1","name":"","uid":1627361278821,"type":"Focus","damage":"","range":"","input":"OIF","level":"0"},{"value":"-½","name":"","uid":1627361289097,"type":"Ablative","damage":"","range":"","input":"BODY Only","level":"0"},{"value":"-½","name":"","uid":1627361302406,"type":"Costs Endurance","damage":"","range":"","input":"Costs END Every Phase","level":"0"},{"value":"-½","name":"","uid":1627361310543,"type":"Increased Endurance Cost","damage":"","range":"","input":"x2 END","level":"0"}],"adders":[]},
+	{"name":"Energy Distortion","uid":1627361538543,"type":"Damage Reduction","damage":"0d6","range":"","input":"EnergyDamage Reduction, Resistant, 75%","level":"0","end":"12","active":"60","base":"60","XMLID":"DAMAGEREDUCTION","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":true,"senseaffecting":false,"special":false},"modifiers":[{"value":"-1½","name":"","uid":1627361604533,"type":"Focus","damage":"0d6","range":"","input":"OIF","level":"0"},{"value":"-½","name":"","uid":1627361617881,"type":"Costs Endurance","damage":"0d6","range":"","input":"Costs END Every Phase","level":"0"},{"value":"-½","name":"","uid":1627361628165,"type":"Increased Endurance Cost","damage":"0d6","range":"","input":"x2 END","level":"0"},{"value":"-1","name":"","uid":1627361638312,"type":"Side Effects","damage":"0d6","range":"","input":"Extreme Side Effect","level":"0"}],"adders":[]},
+	{"name":"Kinetic Dampening","uid":1627361727476,"type":"Damage Reduction","damage":"0d6","range":"","input":"PhysicalDamage Reduction, Resistant, 75%","level":"0","end":"12","active":"60","base":"60","XMLID":"DAMAGEREDUCTION","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":true,"senseaffecting":false,"special":false},"modifiers":[{"value":"-1½","name":"","uid":1627361722855,"type":"Focus","damage":"0d6","range":"","input":"OIF","level":"0"},{"value":"-½","name":"","uid":1627361722862,"type":"Costs Endurance","damage":"0d6","range":"","input":"Costs END Every Phase","level":"0"},{"value":"-½","name":"","uid":1627361722881,"type":"Increased Endurance Cost","damage":"0d6","range":"","input":"x2 END","level":"0"},{"value":"-1","name":"","uid":1627361722897,"type":"Side Effects","damage":"0d6","range":"","input":"Extreme Side Effect","level":"0"}],"adders":[]},
+	{"name":"Ultra Laser Point Defense System","uid":1627361543285,"type":"Deflection","damage":"","range":"200m","input":"","level":"0","end":"2","active":"20","base":"20","XMLID":"MISSILEDEFLECTION","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-1","name":"","uid":1627361807678,"type":"Focus","damage":"","range":"200m","input":"OIF","level":"0"},{"value":"-¼","name":"","uid":1627361823757,"type":"Limited Power","damage":"","range":"200m","input":"Power loses about a fourth of its effectiveness","level":"0"}],"adders":[]}],
+"equipment":[],
+"martialArts":[	
+	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Normal Attack","time":"½","level":"0","active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false}],
+"rolls":[
+	{"name":"Main Ultra Laser Cannon","uid":1627360517321,"gameEdition":6,"tool":"12d6, Killing Ranged (vs. ED) 115,200m, 45 end.","diceMod":0,"dice":12,"halfDice":false,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Secondary Ultra Laser Cannon","uid":1627360628918,"gameEdition":6,"tool":"10d6, Killing Ranged (vs. ED) 48,000m, 34 end.","diceMod":0,"dice":10,"halfDice":false,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Antimatter Missiles","uid":1627360727090,"gameEdition":6,"tool":"10d6, Killing Ranged (vs. ED) 384,000m, [125] end.","diceMod":0,"dice":10,"halfDice":false,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0}],
+"lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
