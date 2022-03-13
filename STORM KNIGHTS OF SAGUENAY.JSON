@@ -1,0 +1,206 @@
+{
+"appversion":"20210301",
+"exportid":"20210724183504",
+"name":"STORM KNIGHTS OF SAGUENAY",
+"playername":"",
+"version":3.1,
+"edition":6,
+"stats":{
+"siz":{"value":0,"roll":"","shortname":"siz","name":"Size","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"str":{"value":15,"roll":"12-","shortname":"str","name":"Strength","current":"primary","primary":{"value":15,"roll":"12-","mod":0},"secondary":{"value":15,"roll":"12-","mod":0},"notes":"HTH Damage 3d6  END [1]"},
+"dex":{"value":18,"roll":"13-","shortname":"dex","name":"Dexterity","current":"primary","primary":{"value":18,"roll":"13-","mod":0},"secondary":{"value":18,"roll":"13-","mod":0},"notes":""},
+"con":{"value":18,"roll":"13-","shortname":"con","name":"Constitution","current":"primary","primary":{"value":18,"roll":"13-","mod":0},"secondary":{"value":18,"roll":"13-","mod":0},"notes":""},
+"int":{"value":13,"roll":"12-","shortname":"int","name":"Intelligence","current":"primary","primary":{"value":13,"roll":"12-","mod":0},"secondary":{"value":13,"roll":"12-","mod":0},"notes":"PER Roll 12-"},
+"ego":{"value":11,"roll":"11-","shortname":"ego","name":"Ego","current":"primary","primary":{"value":11,"roll":"11-","mod":0},"secondary":{"value":11,"roll":"11-","mod":0},"notes":""},
+"com":{"value":0,"roll":"","shortname":"com","name":"Comliness","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"pre":{"value":18,"roll":"13-","shortname":"pre","name":"Presence","current":"primary","primary":{"value":18,"roll":"13-","mod":0},"secondary":{"value":18,"roll":"13-","mod":0},"notes":"PRE Attack: 3½d6"},
+"spd":{"value":4,"roll":"10-","shortname":"spd","name":"Speed","current":"primary","primary":{"value":4,"roll":"10-","mod":0},"secondary":{"value":4,"roll":"10-","mod":0},"notes":"Phases: 3, 6, 9, 12"},
+"ocv":{"value":5,"roll":"10-","shortname":"ocv","name":"Offensive Combat Value","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":5,"roll":"10-","mod":0},"notes":""},
+"dcv":{"value":5,"roll":"10-","shortname":"dcv","name":"Defensive Combat Value","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":5,"roll":"10-","mod":0},"notes":""},
+"omcv":{"value":3,"roll":"10-","shortname":"omcv","name":"Offensive Mental Combat Value","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":""},
+"dmcv":{"value":4,"roll":"10-","shortname":"dmcv","name":"Defensive Mental Combat Value","current":"primary","primary":{"value":4,"roll":"10-","mod":0},"secondary":{"value":4,"roll":"10-","mod":0},"notes":""},
+"pd":{"value":9,"roll":"11-","shortname":"pd","name":"Physical Defence","current":"primary","primary":{"value":9,"roll":"11-","mod":0},"secondary":{"value":19,"roll":"13-","mod":0},"notes":"9/19 PD (0/10 rPD)"},
+"pdr":{"value":0,"roll":"11-","shortname":"pdr","name":"Physical Resistant Defence","current":"primary","primary":{"value":0,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"13-","mod":0},"notes":"9/19 PD (0/10 rPD)"},
+"ed":{"value":9,"roll":"11-","shortname":"ed","name":"Energy Defence","current":"primary","primary":{"value":9,"roll":"11-","mod":0},"secondary":{"value":19,"roll":"13-","mod":0},"notes":"9/19 ED (0/10 rED)"},
+"edr":{"value":9,"roll":"11-","shortname":"edr","name":"Energy Resistant Defence","current":"primary","primary":{"value":9,"roll":"11-","mod":0},"secondary":{"value":19,"roll":"13-","mod":0},"notes":"9/19 ED (0/10 rED)"},
+"per":{"value":13,"roll":"12-","shortname":"per","name":"Perception Roll","current":"primary","primary":{"value":0,"roll":"12-","mod":0},"secondary":{"value":0,"roll":"12-","mod":0},"notes":""},
+"rec":{"value":7,"roll":"10-","shortname":"rec","name":"Recovery","current":"primary","primary":{"value":7,"roll":"10-","mod":0},"secondary":{"value":7,"roll":"10-","mod":0},"notes":""},
+"body":{"value":13,"roll":"12-","shortname":"body","name":"Body","current":"primary","primary":{"value":13,"roll":"12-","mod":0},"secondary":{"value":13,"roll":"12-","mod":0},"notes":""},
+"end":{"value":35,"roll":"16-","shortname":"end","name":"Endurance","current":"primary","primary":{"value":35,"roll":"16-","mod":0},"secondary":{"value":35,"roll":"16-","mod":0},"notes":""},
+"stun":{"value":30,"roll":"15-","shortname":"stun","name":"Stun","current":"primary","primary":{"value":30,"roll":"15-","mod":0},"secondary":{"value":30,"roll":"15-","mod":0},"notes":""},
+"def":{"value":0,"roll":"","shortname":"def","name":"Defence","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"}},
+"movement":{
+"run":{"current":"primary","combat":"12m","noncombat":"24m","primary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"secondary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"icon":"ui_run","notes":""},
+"fly":{"current":"primary","combat":"40m","noncombat":"160m","primary":{"combat":{"description":"40m","value":40},"noncombat":{"description":"160m","value":160}},"secondary":{"combat":{"description":"40m","value":40},"noncombat":{"description":"160m","value":160}},"icon":"ui_fly","notes":""},
+"swim":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_swim","notes":""},
+"leap":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_leap","notes":"4m forward, 2m upward"}},
+"skills":[
+	{"name":"Perception ","roll":"12-","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"uid":1111111111111,"type":"Perception","input":"","level":"0","active":"0","base":"0","XMLID":"PERCEPTION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Perception 12-"},
+	{"name":"Combat Skill Levels ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1280504582972,"type":"Combat Skill Levels","input":"with a small group of attacks","level":"2","active":"6","base":"6","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[],"option":"with a small group of attacks","optionAlias":"with Energy Lance","optionID":"TIGHT","text":"+2 with Energy Lance"},
+	{"name":"Penalty Skill Levels ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1280504600324,"type":"Penalty Skill Levels","input":"to offset a specific negative OCV modifier with any single attack","level":"4","active":"4","base":"4","XMLID":"PENALTY_SKILL_LEVELS","modifiers":[],"adders":[],"option":"to offset a specific negative OCV modifier with any single attack","optionAlias":"versus Range Modifer with Energy Lance Blaster","optionID":"SINGLE","text":"+4 versus Range Modifer with Energy Lance Blaster"},
+	{"name":"Breakfall ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1280504636605,"type":"Breakfall","input":"","level":"0","active":"3","base":"3","XMLID":"BREAKFALL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Breakfall 13-"},
+	{"name":"Climbing ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1280504639989,"type":"Climbing","input":"","level":"0","active":"3","base":"3","XMLID":"CLIMBING","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Climbing 13-"},
+	{"name":"Combat Piloting ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1280504642989,"type":"Combat Piloting","input":"","level":"0","active":"3","base":"3","XMLID":"COMBAT_PILOTING","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Combat Piloting 13-"},
+	{"name":"Demolitions ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1280504646085,"type":"Demolitions","input":"","level":"0","active":"3","base":"3","XMLID":"DEMOLITIONS","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Demolitions 12-"},
+	{"name":"Interrogation ","stat":"PRE","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1280504648973,"type":"Interrogation","input":"","level":"0","active":"3","base":"3","XMLID":"INTERROGATION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Interrogation 13-"},
+	{"name":"Paramedics ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1280504651437,"type":"Paramedics","input":"","level":"0","active":"3","base":"3","XMLID":"PARAMEDICS","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Paramedics 12-"},
+	{"name":"Shadowing ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1280504655109,"type":"Shadowing","input":"","level":"0","active":"3","base":"3","XMLID":"SHADOWING","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Shadowing 12-"},
+	{"name":"Stealth ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1280504658309,"type":"Stealth","input":"","level":"0","active":"3","base":"3","XMLID":"STEALTH","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Stealth 13-"},
+	{"name":"Survival ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1280504664182,"type":"Survival","input":"","level":"0","active":"3","base":"3","XMLID":"SURVIVAL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Survival 12-"},
+	{"name":"Tactics ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1280504668846,"type":"Tactics","input":"","level":"0","active":"3","base":"3","XMLID":"TACTICS","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Tactics 12-"},
+	{"name":"Teamwork ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1280504672302,"type":"Teamwork","input":"","level":"0","active":"3","base":"3","XMLID":"TEAMWORK","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Teamwork 13-"}],
+"talents":[],
+"perks":[],
+"disads":[
+	{"name":"Hunted","roll":"","uid":1280504685342,"type":"Hunted","input":"RCMP","level":"0","active":"20","base":"20","XMLID":"HUNTED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1280504696001,"type":"Appearance","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1280504696007,"type":"Capabilities","input":"More Powerful","level":"0"},{"name":"No Name Supplied","uid":1280504696013,"type":"Motivation","input":"Harshly Punish","level":"0"},{"name":"No Name Supplied","uid":1280504708336,"type":"Extensive Non-Combat Influence","input":"","level":"0"}]},
+	{"name":"Hunted","roll":"","uid":1280504700479,"type":"Hunted","input":"StarForce","level":"0","active":"15","base":"15","XMLID":"HUNTED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1280504711328,"type":"Appearance","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1280504711334,"type":"Capabilities","input":"More Powerful","level":"0"},{"name":"No Name Supplied","uid":1280504711340,"type":"Motivation","input":"Harshly Punish","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1280504720231,"type":"Psychological Complication","input":"Loyal To Baron Nihil","level":"0","active":"20","base":"20","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1280504731249,"type":"Situation Is","input":"Very Common","level":"0"},{"name":"No Name Supplied","uid":1280504731255,"type":"Intensity Is","input":"Strong","level":"0"}]},
+	{"name":"Social Complication","roll":"","uid":1280504738999,"type":"Social Complication","input":"Subject To Orders","level":"0","active":"20","base":"20","XMLID":"SOCIALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1280504750177,"type":"Circumstances Occur","input":"Very Frequently","level":"0"},{"name":"No Name Supplied","uid":1280504750183,"type":"Effects of Restrictions","input":"Major","level":"0"}]}],
+"combatlevels":[
+	{"name":"Combat Skill Levels","roll":"","uid":1280504582972,"type":"Combat Skill Levels","input":"with a small group of attacks","level":"2","active":"6","base":"6","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[]}],
+"powers":[
+	{"name":"Energy Lance","uid":1280504363962,"type":"","damage":"","range":"","input":"","level":"0","end":"","active":"60","base":"60","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-1","name":"","uid":1280504375746,"type":"Focus","damage":"","range":"","input":"OAF","level":"0"}],"adders":[]},
+	{"name":"Blaster","uid":1280504376384,"type":"Blast","damage":"12d6","range":"600m","input":"ED","level":"12","end":"6","active":"60","base":"60","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Spearhead","uid":1280504412088,"type":"Killing Ranged","damage":"2½d6","range":"","input":"PD","level":"2","end":"0","active":"60","base":"40","XMLID":"RKA","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1280504434230,"type":"Reduced Endurance","damage":"2½d6","range":"","input":"0 END","level":"0"},{"value":"-½","name":"","uid":1280504441784,"type":"No Range","damage":"2½d6","range":"","input":"","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1280504426995,"type":"+½ d6","damage":"2½d6","range":"","input":"","level":"0"}]},
+	{"name":"Hover Platform","uid":1280504450785,"type":"Flight","damage":"40m","range":"","input":"","level":"40","end":"0","active":"67","base":"45","XMLID":"FLIGHT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1280504474791,"type":"Reduced Endurance","damage":"40m","range":"","input":"0 END","level":"0"},{"value":"-1","name":"","uid":1280504477843,"type":"Focus","damage":"40m","range":"","input":"OAF","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1280504466464,"type":"x2 Noncombat","damage":"40m","range":"","input":"","level":"1"}]},
+	{"name":"Knightly Armor","uid":1280504487106,"type":"Resistant Protection","damage":"","range":"","input":"","level":"20","end":"0","active":"30","base":"30","XMLID":"FORCEFIELD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1280504509858,"type":"Focus","damage":"","range":"","input":"OIF","level":"0"},{"value":"-¼","name":"","uid":1280504524029,"type":"Requires A Roll","damage":"","range":"","input":"14- roll","level":"0"}],"adders":[]},
+	{"name":"Longevity","uid":1280504559117,"type":"Life Support","damage":"","range":"","input":"","level":"0","end":"0","active":"1","base":"1","XMLID":"LIFESUPPORT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[{"name":"No Name Supplied","uid":1280504576866,"type":"Longevity","damage":"","range":"","input":"200 Years","level":"0"}]}],
+"equipment":[],
+"martialArts":[	
+	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Normal Attack","time":"½","level":"0","active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false}],
+"rolls":[
+	{"name":"Blaster","uid":1280504376384,"gameEdition":6,"tool":"12d6, Blast (vs. ED) 600m, 6 end.","diceMod":0,"dice":12,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Spearhead","uid":1280504412088,"gameEdition":6,"tool":"2½d6, Killing Ranged (vs. PD) , 0 end.","diceMod":0,"dice":2,"halfDice":true,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0}],
+"lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

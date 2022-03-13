@@ -1,0 +1,202 @@
+{
+"appversion":"20210301",
+"exportid":"20211012141054",
+"name":"Robert Caliburn",
+"playername":"",
+"version":3.1,
+"edition":6,
+"stats":{
+"siz":{"value":0,"roll":"","shortname":"siz","name":"Size","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"str":{"value":15,"roll":"12-","shortname":"str","name":"Strength","current":"primary","primary":{"value":15,"roll":"12-","mod":0},"secondary":{"value":15,"roll":"12-","mod":0},"notes":"HTH Damage 3d6  END [1]"},
+"dex":{"value":18,"roll":"13-","shortname":"dex","name":"Dexterity","current":"primary","primary":{"value":18,"roll":"13-","mod":0},"secondary":{"value":18,"roll":"13-","mod":0},"notes":""},
+"con":{"value":18,"roll":"13-","shortname":"con","name":"Constitution","current":"primary","primary":{"value":18,"roll":"13-","mod":0},"secondary":{"value":18,"roll":"13-","mod":0},"notes":""},
+"int":{"value":20,"roll":"13-","shortname":"int","name":"Intelligence","current":"primary","primary":{"value":20,"roll":"13-","mod":0},"secondary":{"value":20,"roll":"13-","mod":0},"notes":"PER Roll 13-"},
+"ego":{"value":15,"roll":"12-","shortname":"ego","name":"Ego","current":"primary","primary":{"value":15,"roll":"12-","mod":0},"secondary":{"value":15,"roll":"12-","mod":0},"notes":""},
+"com":{"value":0,"roll":"","shortname":"com","name":"Comliness","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"pre":{"value":25,"roll":"14-","shortname":"pre","name":"Presence","current":"primary","primary":{"value":25,"roll":"14-","mod":0},"secondary":{"value":25,"roll":"14-","mod":0},"notes":"PRE Attack: 5d6"},
+"spd":{"value":5,"roll":"10-","shortname":"spd","name":"Speed","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":5,"roll":"10-","mod":0},"notes":"Phases: 3, 5, 8, 10, 12"},
+"ocv":{"value":6,"roll":"10-","shortname":"ocv","name":"Offensive Combat Value","current":"primary","primary":{"value":6,"roll":"10-","mod":0},"secondary":{"value":6,"roll":"10-","mod":0},"notes":""},
+"dcv":{"value":6,"roll":"10-","shortname":"dcv","name":"Defensive Combat Value","current":"primary","primary":{"value":6,"roll":"10-","mod":0},"secondary":{"value":6,"roll":"10-","mod":0},"notes":""},
+"omcv":{"value":5,"roll":"10-","shortname":"omcv","name":"Offensive Mental Combat Value","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":5,"roll":"10-","mod":0},"notes":""},
+"dmcv":{"value":5,"roll":"10-","shortname":"dmcv","name":"Defensive Mental Combat Value","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":5,"roll":"10-","mod":0},"notes":""},
+"pd":{"value":10,"roll":"11-","shortname":"pd","name":"Physical Defence","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":"10 PD (0 rPD)"},
+"pdr":{"value":0,"roll":"11-","shortname":"pdr","name":"Physical Resistant Defence","current":"primary","primary":{"value":0,"roll":"11-","mod":0},"secondary":{"value":0,"roll":"11-","mod":0},"notes":"10 PD (0 rPD)"},
+"ed":{"value":10,"roll":"11-","shortname":"ed","name":"Energy Defence","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":"10 ED (0 rED)"},
+"edr":{"value":10,"roll":"11-","shortname":"edr","name":"Energy Resistant Defence","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":"10 ED (0 rED)"},
+"per":{"value":20,"roll":"13-","shortname":"per","name":"Perception Roll","current":"primary","primary":{"value":0,"roll":"13-","mod":0},"secondary":{"value":0,"roll":"13-","mod":0},"notes":""},
+"rec":{"value":7,"roll":"10-","shortname":"rec","name":"Recovery","current":"primary","primary":{"value":7,"roll":"10-","mod":0},"secondary":{"value":7,"roll":"10-","mod":0},"notes":""},
+"body":{"value":12,"roll":"11-","shortname":"body","name":"Body","current":"primary","primary":{"value":12,"roll":"11-","mod":0},"secondary":{"value":12,"roll":"11-","mod":0},"notes":""},
+"end":{"value":36,"roll":"16-","shortname":"end","name":"Endurance","current":"primary","primary":{"value":36,"roll":"16-","mod":0},"secondary":{"value":36,"roll":"16-","mod":0},"notes":""},
+"stun":{"value":30,"roll":"15-","shortname":"stun","name":"Stun","current":"primary","primary":{"value":30,"roll":"15-","mod":0},"secondary":{"value":30,"roll":"15-","mod":0},"notes":""},
+"def":{"value":0,"roll":"","shortname":"def","name":"Defence","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"}},
+"movement":{
+"run":{"current":"primary","combat":"12m","noncombat":"24m","primary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"secondary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"icon":"ui_run","notes":""},
+"swim":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_swim","notes":""},
+"leap":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_leap","notes":"4m forward, 2m upward"}},
+"skills":[
+	{"name":"Perception ","roll":"13-","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"uid":1111111111111,"type":"Perception","input":"","level":"0","active":"0","base":"0","XMLID":"PERCEPTION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Perception 13-"}],
+"talents":[],
+"perks":[],
+"disads":[],
+"combatlevels":[],
+"powers":[
+	{"name":"Hermetic Theurgy","uid":1634057565278,"type":"Variable Power Pool","damage":"","range":"","input":"","level":"40","end":"","active":"50","base":"50","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-¼","name":"","uid":1634057614609,"type":"Gestures","damage":"","range":"","input":"","level":"0"},{"value":"-¼","name":"","uid":1634057617302,"type":"Incantations","damage":"","range":"","input":"","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1634057565277,"type":"Control Cost","damage":"","range":"","input":"","level":"20"}]},
+	{"name":"Enchanted Weapons and Combat Talismans","uid":1633817204923,"type":"","damage":"","range":"","input":"","level":"0","end":"","active":"90","base":"90","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1633817229853,"type":"Focus","damage":"","range":"","input":"OIF","level":"0"}],"adders":[]},
+	{"name":"Consecrated .45","uid":1633817253507,"type":"Killing Ranged","damage":"3d6","range":"450m","input":"ED","level":"3","end":"0","active":"79","base":"45","XMLID":"RKA","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1633817302068,"type":"+1 Increased STUN Multiplier","damage":"3d6","range":"450m","input":"","level":"1"},{"value":"+½","name":"","uid":1633817313112,"type":"Reduced Endurance","damage":"3d6","range":"450m","input":"0 END","level":"0"},{"value":"-¼","name":"","uid":1633817991415,"type":"Beam","damage":"3d6","range":"450m","input":"","level":"0"},{"value":"-¼","name":"","uid":1633817999893,"type":"No Knockback","damage":"3d6","range":"450m","input":"","level":"0"}],"adders":[]},
+	{"name":"Submachinegun 'Hand of Shiva'","uid":1633817990556,"type":"Killing Ranged","damage":"2d6","range":"300m","input":"ED","level":"2","end":"0","active":"82","base":"30","XMLID":"RKA","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1633818071710,"type":"Armor Piercing","damage":"2d6","range":"300m","input":"","level":"1"},{"value":"+½","name":"","uid":1633818071720,"type":"Autofire","damage":"2d6","range":"300m","input":"5 Shots","level":"0"},{"value":"+1","name":"","uid":1633818071727,"type":"Reduced Endurance","damage":"2d6","range":"300m","input":"0 END","level":"0"},{"value":"-¼","name":"","uid":1633818071729,"type":"Beam","damage":"2d6","range":"300m","input":"","level":"0"},{"value":"-¼","name":"","uid":1633818071730,"type":"No Knockback","damage":"2d6","range":"300m","input":"","level":"0"}],"adders":[]},
+	{"name":"Caliburn's Crashing Handcannon","uid":1633818084591,"type":"Blast","damage":"9d6","range":"450m","input":"PD","level":"9","end":"9","active":"90","base":"45","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1633818155369,"type":"Focus","damage":"9d6","range":"450m","input":"OIF","level":"0"},{"value":"+1","name":"","uid":1633818178360,"type":"Variable Advantage","damage":"9d6","range":"450m","input":"","level":"0"}],"adders":[]},
+	{"name":"K-bar Athame","uid":1633818362884,"type":"","damage":"","range":"","input":"","level":"0","end":"","active":"100","base":"100","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1634015125469,"type":"Focus","damage":"","range":"","input":"OIF","level":"0"}],"adders":[]},
+	{"name":"Cutting Flesh and Spirit","uid":1633818370301,"type":"Killing Attack - Hand-To-Hand","damage":"1d6 (1d6+1 w/STR)","range":"","input":"PD","level":"1","end":"3","active":"26","base":"15","XMLID":"HKA","strMod":true,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1633818445820,"type":"Affects Desolidified","damage":"1d6 (1d6+1 w/STR)","range":"","input":"Any form of Desolidification","level":"0"},{"value":"+¼","name":"","uid":1633818451118,"type":"Armor Piercing","damage":"1d6 (1d6+1 w/STR)","range":"","input":"","level":"1"}],"adders":[]},
+	{"name":"Cutting Enchantments","uid":1634014941893,"type":"Drain","damage":"4d6","range":"400m","input":"Any One Magic Power At A Time","level":"4","end":"10","active":"100","base":"40","XMLID":"DRAIN","strMod":false,"class":{"attack":true,"mental":false,"adjustment":true,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1634015058257,"type":"Variable Effect","damage":"4d6","range":"400m","input":"Magic","level":"0"},{"value":"+1","name":"","uid":1634015094223,"type":"Delayed Return Rate","damage":"4d6","range":"400m","input":"5 Points per Minute","level":"0"}],"adders":[]},
+	{"name":"Bullet With Your Name On It","uid":1634015131602,"type":"Killing Ranged","damage":"2d6","range":"300m","input":"PD","level":"2","end":"[1]","active":"37","base":"30","XMLID":"RKA","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1634015423365,"type":"+1 Increased STUN Multiplier","damage":"2d6","range":"300m","input":"","level":"1"},{"value":"-¼","name":"","uid":1634015436919,"type":"Beam","damage":"2d6","range":"300m","input":"","level":"0"},{"value":"-2","name":"","uid":1634015447073,"type":"Charges","damage":"2d6","range":"300m","input":"1","level":"0"},{"value":"-1","name":"","uid":1634015466788,"type":"Conditional Power","damage":"2d6","range":"300m","input":"Power does not work in Very Common Circumstances","level":"0"},{"value":"-1","name":"","uid":1634015774289,"type":"Limited Power","damage":"2d6","range":"300m","input":"Power loses about half of its effectiveness","level":"0"}],"adders":[]},
+	{"name":"The Flame Gem","uid":1634022413697,"type":"","damage":"","range":"","input":"","level":"0","end":"","active":"60","base":"60","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1634022413695,"type":"Focus","damage":"","range":"","input":"OIF","level":"0"}],"adders":[]},
+	{"name":"Fireball","uid":1634022413733,"type":"Blast","damage":"8d6","range":"400m","input":"ED","level":"8","end":"6","active":"60","base":"40","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1634022413725,"type":"Area Of Effect","damage":"8d6","range":"400m","input":"Radius","level":"18"}],"adders":[]},
+	{"name":"Aura Of Uriel","uid":1634022413753,"type":"Killing Attack - Hand-To-Hand","damage":"1d6","range":"","input":"ED","level":"1","end":"0","active":"30","base":"15","XMLID":"HKA","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1634022413734,"type":"Constant","damage":"1d6","range":"","input":"","level":"0"},{"value":"+½","name":"","uid":1634022413739,"type":"Reduced Endurance","damage":"1d6","range":"","input":"0 END","level":"0"},{"value":"-¼","name":"","uid":1634022413743,"type":"Incantations","damage":"1d6","range":"","input":"","level":"0"},{"value":"-½","name":"","uid":1634022413744,"type":"No STR Bonus","damage":"1d6","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"These Things'll Kill Ya","uid":1634022413846,"type":"Killing Ranged","damage":"2d6","range":"300m","input":"ED","level":"2","end":"5","active":"52","base":"30","XMLID":"RKA","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1634022413771,"type":"Area Of Effect","damage":"2d6","range":"300m","input":"Surface","level":"10"},{"value":"+¼","name":"","uid":1634022413809,"type":"Trigger","damage":"2d6","range":"300m","input":"Set Trigger","level":"0"},{"value":"-½","name":"","uid":1634022413837,"type":"Focus","damage":"2d6","range":"300m","input":"OIF","level":"0"}],"adders":[]},
+	{"name":"The Flame Gem","uid":1634022421781,"type":"Damage Reduction","damage":"0d6","range":"","input":"EnergyDamage Reduction, Resistant, 50%","level":"0","end":"0","active":"30","base":"30","XMLID":"DAMAGEREDUCTION","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1634022421766,"type":"Only Works Against","damage":"0d6","range":"","input":"Common attack","level":"0"}],"adders":[]}],
+"equipment":[],
+"martialArts":[	
+	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Normal Attack","time":"½","level":"0","active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false}],
+"rolls":[
+	{"name":"Consecrated .45","uid":1633817253507,"gameEdition":6,"tool":"3d6, Killing Ranged (vs. ED) 450m, 0 end.","diceMod":0,"dice":3,"halfDice":false,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":1},
+	{"name":"Submachinegun 'Hand of Shiva'","uid":1633817990556,"gameEdition":6,"tool":"2d6, Killing Ranged (vs. ED) 300m, 0 end.","diceMod":0,"dice":2,"halfDice":false,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Caliburn's Crashing Handcannon","uid":1633818084591,"gameEdition":6,"tool":"9d6, Blast (vs. PD) 450m, 9 end.","diceMod":0,"dice":9,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Cutting Flesh and Spirit","uid":1633818370301,"gameEdition":6,"tool":"1d6 (1d6+1 w/STR), Killing Attack - Hand-To-Hand (vs. PD) , 3 end.","diceMod":1,"dice":1,"halfDice":false,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":true,"stunMultiplierMod":0},
+	{"name":"Cutting Enchantments","uid":1634014941893,"gameEdition":6,"tool":"4d6, Drain (vs. Any One Magic Power At A Time) 400m, 10 end.","diceMod":0,"dice":4,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Bullet With Your Name On It","uid":1634015131602,"gameEdition":6,"tool":"2d6, Killing Ranged (vs. PD) 300m, [1] end.","diceMod":0,"dice":2,"halfDice":false,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":1},
+	{"name":"Fireball","uid":1634022413733,"gameEdition":6,"tool":"8d6, Blast (vs. ED) 400m, 6 end.","diceMod":0,"dice":8,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Aura Of Uriel","uid":1634022413753,"gameEdition":6,"tool":"1d6, Killing Attack - Hand-To-Hand (vs. ED) , 0 end.","diceMod":0,"dice":1,"halfDice":false,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"These Things'll Kill Ya","uid":1634022413846,"gameEdition":6,"tool":"2d6, Killing Ranged (vs. ED) 300m, 5 end.","diceMod":0,"dice":2,"halfDice":false,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0}],
+"lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,195 @@
+{
+"appversion":"20210301",
+"exportid":"20210716123816",
+"name":"Spoilsport",
+"playername":"",
+"version":3.1,
+"edition":6,
+"stats":{
+"siz":{"value":0,"roll":"","shortname":"siz","name":"Size","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"str":{"value":15,"roll":"12-","shortname":"str","name":"Strength","current":"primary","primary":{"value":15,"roll":"12-","mod":0},"secondary":{"value":15,"roll":"12-","mod":0},"notes":"HTH Damage 3d6  END [1]"},
+"dex":{"value":21,"roll":"13-","shortname":"dex","name":"Dexterity","current":"primary","primary":{"value":21,"roll":"13-","mod":0},"secondary":{"value":21,"roll":"13-","mod":0},"notes":""},
+"con":{"value":15,"roll":"12-","shortname":"con","name":"Constitution","current":"primary","primary":{"value":15,"roll":"12-","mod":0},"secondary":{"value":15,"roll":"12-","mod":0},"notes":""},
+"int":{"value":10,"roll":"11-","shortname":"int","name":"Intelligence","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":"PER Roll 11-"},
+"ego":{"value":10,"roll":"11-","shortname":"ego","name":"Ego","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":""},
+"com":{"value":0,"roll":"","shortname":"com","name":"Comliness","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"pre":{"value":10,"roll":"11-","shortname":"pre","name":"Presence","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":"PRE Attack: 2d6"},
+"spd":{"value":4,"roll":"10-","shortname":"spd","name":"Speed","current":"primary","primary":{"value":4,"roll":"10-","mod":0},"secondary":{"value":4,"roll":"10-","mod":0},"notes":"Phases: 3, 6, 9, 12"},
+"ocv":{"value":7,"roll":"10-","shortname":"ocv","name":"Offensive Combat Value","current":"primary","primary":{"value":7,"roll":"10-","mod":0},"secondary":{"value":7,"roll":"10-","mod":0},"notes":""},
+"dcv":{"value":9,"roll":"11-","shortname":"dcv","name":"Defensive Combat Value","current":"primary","primary":{"value":9,"roll":"11-","mod":0},"secondary":{"value":9,"roll":"11-","mod":0},"notes":""},
+"omcv":{"value":3,"roll":"10-","shortname":"omcv","name":"Offensive Mental Combat Value","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":""},
+"dmcv":{"value":3,"roll":"10-","shortname":"dmcv","name":"Defensive Mental Combat Value","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":""},
+"pd":{"value":5,"roll":"10-","shortname":"pd","name":"Physical Defence","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":12,"roll":"11-","mod":0},"notes":"5/12 PD (0/7 rPD)"},
+"pdr":{"value":0,"roll":"10-","shortname":"pdr","name":"Physical Resistant Defence","current":"primary","primary":{"value":0,"roll":"10-","mod":0},"secondary":{"value":7,"roll":"11-","mod":0},"notes":"5/12 PD (0/7 rPD)"},
+"ed":{"value":5,"roll":"10-","shortname":"ed","name":"Energy Defence","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":12,"roll":"11-","mod":0},"notes":"5/12 ED (0/7 rED)"},
+"edr":{"value":5,"roll":"10-","shortname":"edr","name":"Energy Resistant Defence","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":12,"roll":"11-","mod":0},"notes":"5/12 ED (0/7 rED)"},
+"per":{"value":10,"roll":"11-","shortname":"per","name":"Perception Roll","current":"primary","primary":{"value":0,"roll":"11-","mod":0},"secondary":{"value":0,"roll":"11-","mod":0},"notes":""},
+"rec":{"value":6,"roll":"10-","shortname":"rec","name":"Recovery","current":"primary","primary":{"value":6,"roll":"10-","mod":0},"secondary":{"value":6,"roll":"10-","mod":0},"notes":""},
+"body":{"value":10,"roll":"11-","shortname":"body","name":"Body","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":""},
+"end":{"value":30,"roll":"15-","shortname":"end","name":"Endurance","current":"primary","primary":{"value":30,"roll":"15-","mod":0},"secondary":{"value":30,"roll":"15-","mod":0},"notes":""},
+"stun":{"value":32,"roll":"15-","shortname":"stun","name":"Stun","current":"primary","primary":{"value":32,"roll":"15-","mod":0},"secondary":{"value":32,"roll":"15-","mod":0},"notes":""},
+"def":{"value":0,"roll":"","shortname":"def","name":"Defence","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"}},
+"movement":{
+"run":{"current":"primary","combat":"12m","noncombat":"24m","primary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"secondary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"icon":"ui_run","notes":""},
+"swim":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_swim","notes":""},
+"leap":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_leap","notes":"4m forward, 2m upward"}},
+"skills":[
+	{"name":"Perception ","roll":"11-","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"uid":1111111111111,"type":"Perception","input":"","level":"0","active":"0","base":"0","XMLID":"PERCEPTION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Perception 11-"},
+	{"name":"Combat Skill Levels ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1626451973173,"type":"Combat Skill Levels","input":"with any single attack","level":"1","active":"2","base":"2","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[],"option":"with any single attack","optionAlias":"with Strike","optionID":"SINGLE","text":"+1 with Strike"}],
+"talents":[
+	{"name":"Combat Luck ","roll":"","uid":1626451892809,"type":"Combat Luck","input":"","level":"1","active":"6","base":"6","XMLID":"COMBAT_LUCK","modifiers":[],"adders":[]},
+	{"name":"Danger Sense 12-","roll":"12-","uid":1626451913230,"type":"Danger Sense","input":"","level":"1","active":"18","base":"18","XMLID":"DANGER_SENSE","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1626451991208,"type":"Function as a Sense","input":"","level":"0"},{"name":"No Name Supplied","uid":1626452003296,"type":"Sensitivity","input":"out of combat","level":"0"},{"name":"No Name Supplied","uid":1626452008934,"type":"Intuitional","input":"","level":"0"}]}],
+"perks":[],
+"disads":[
+	{"name":"Distinctive Features","roll":"","uid":1626452057582,"type":"Distinctive Features","input":"Lucky","level":"0","active":"15","base":"15","XMLID":"DISTINCTIVEFEATURES","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1626452122676,"type":"Concealability","input":"Not Concealable","level":"0"},{"name":"No Name Supplied","uid":1626452122682,"type":"Reaction","input":"Noticed and Recognizable","level":"0"},{"name":"No Name Supplied","uid":1626452122688,"type":"Sensing","input":"Detectable By Commonly-Used Senses","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1626452091999,"type":"Psychological Complication","input":"Spoiled","level":"0","active":"5","base":"5","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1626452157250,"type":"Situation Is","input":"Uncommon","level":"0"},{"name":"No Name Supplied","uid":1626452157256,"type":"Intensity Is","input":"Moderate","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1626452104682,"type":"Psychological Complication","input":"Cocky and Headstrong","level":"0","active":"20","base":"20","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1626452170042,"type":"Situation Is","input":"Common","level":"0"},{"name":"No Name Supplied","uid":1626452170048,"type":"Intensity Is","input":"Total","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1626452128432,"type":"Psychological Complication","input":"Crush on Mrs Garter","level":"0","active":"15","base":"15","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1626452193904,"type":"Situation Is","input":"Common","level":"0"},{"name":"No Name Supplied","uid":1626452193910,"type":"Intensity Is","input":"Strong","level":"0"}]},
+	{"name":"Social Complication","roll":"","uid":1626452150606,"type":"Social Complication","input":"Secret Identity (Jack Fallows)","level":"0","active":"15","base":"15","XMLID":"SOCIALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1626452216238,"type":"Circumstances Occur","input":"Frequently","level":"0"},{"name":"No Name Supplied","uid":1626452216244,"type":"Effects of Restrictions","input":"Major","level":"0"}]}],
+"combatlevels":[
+	{"name":"Combat Skill Levels","roll":"","uid":1626451973173,"type":"Combat Skill Levels","input":"with any single attack","level":"1","active":"2","base":"2","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[]}],
+"powers":[
+	{"name":"Not Your Lucky Day","uid":1626427564353,"type":"Transform","damage":"2d6","range":"200m","input":"human into human with 3d6 UnluckMajor","level":"2","end":"0","active":"30","base":"20","XMLID":"TRANSFORM","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1626451705722,"type":"Reduced Endurance","damage":"2d6","range":"200m","input":"0 END","level":"0"},{"value":"-½","name":"","uid":1626451705758,"type":"Requires A Roll","damage":"2d6","range":"200m","input":"Skill roll","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1626451705717,"type":"Healed back by","damage":"2d6","range":"200m","input":"","level":"0"}]},
+	{"name":"Lucky Shot","uid":1626430141281,"type":"Hand-To-Hand Attack","damage":"4d6","range":"","input":"","level":"4","end":"2","active":"20","base":"20","XMLID":"HANDTOHANDATTACK","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-¼","name":"","uid":1626430201238,"type":"Hand-To-Hand Attack","damage":"4d6","range":"","input":"","level":"0"},{"value":"-½","name":"","uid":1626451662899,"type":"Requires A Roll","damage":"4d6","range":"","input":"11- roll","level":"0"}],"adders":[]},
+	{"name":"Wrist Layer","uid":1626451708577,"type":"Mind Link","damage":"","range":"LOS","input":"HumanSpecific Group of Minds","level":"0","end":"0","active":"35","base":"35","XMLID":"MINDLINK","strMod":false,"class":{"attack":false,"mental":true,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-¼","name":"","uid":1626451819481,"type":"Sense Affected As Another Sense","damage":"","range":"LOS","input":"","level":"0"},{"value":"-1","name":"","uid":1626451835487,"type":"Only With Others Who Have Mind Link","damage":"","range":"LOS","input":"","level":"0"},{"value":"-½","name":"","uid":1626451837990,"type":"Focus","damage":"","range":"LOS","input":"IAF","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1626451781247,"type":"Number of Minds (x8)","damage":"","range":"LOS","input":"","level":"3"},{"name":"No Name Supplied","uid":1626451790256,"type":"No LOS Needed","damage":"","range":"LOS","input":"","level":"0"}]},
+	{"name":"Armored Costume","uid":1626451821228,"type":"Resistant Protection","damage":"","range":"","input":"","level":"8","end":"0","active":"12","base":"12","XMLID":"FORCEFIELD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1626451901155,"type":"Focus","damage":"","range":"","input":"OIF","level":"0"}],"adders":[]},
+	{"name":"Unnaturally Lucky","uid":1626451852431,"type":"Luck","damage":"6d6","range":"","input":"","level":"6","end":"0","active":"30","base":"30","XMLID":"LUCK","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[]}],
+"equipment":[],
+"martialArts":[	
+	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Normal Attack","time":"½","level":"0","active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false}],
+"rolls":[
+	{"name":"Not Your Lucky Day","uid":1626427564353,"gameEdition":6,"tool":"2d6, Transform (vs. human into human with 3d6 Unluck,Major) 200m, 0 end.","diceMod":0,"dice":2,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Lucky Shot","uid":1626430141281,"gameEdition":6,"tool":"4d6, Hand-To-Hand Attack , 2 end.","diceMod":0,"dice":4,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0}],
+"lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

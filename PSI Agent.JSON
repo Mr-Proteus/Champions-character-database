@@ -1,0 +1,208 @@
+{
+"appversion":"20210301",
+"exportid":"20210709230939",
+"name":"PSI Agent",
+"playername":"",
+"version":3.1,
+"edition":6,
+"stats":{
+"siz":{"value":0,"roll":"","shortname":"siz","name":"Size","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"str":{"value":15,"roll":"12-","shortname":"str","name":"Strength","current":"primary","primary":{"value":15,"roll":"12-","mod":0},"secondary":{"value":15,"roll":"12-","mod":0},"notes":"HTH Damage 3d6  END [1]"},
+"dex":{"value":15,"roll":"12-","shortname":"dex","name":"Dexterity","current":"primary","primary":{"value":15,"roll":"12-","mod":0},"secondary":{"value":15,"roll":"12-","mod":0},"notes":""},
+"con":{"value":15,"roll":"12-","shortname":"con","name":"Constitution","current":"primary","primary":{"value":15,"roll":"12-","mod":0},"secondary":{"value":15,"roll":"12-","mod":0},"notes":""},
+"int":{"value":13,"roll":"12-","shortname":"int","name":"Intelligence","current":"primary","primary":{"value":13,"roll":"12-","mod":0},"secondary":{"value":13,"roll":"12-","mod":0},"notes":"PER Roll 12-"},
+"ego":{"value":15,"roll":"12-","shortname":"ego","name":"Ego","current":"primary","primary":{"value":15,"roll":"12-","mod":0},"secondary":{"value":15,"roll":"12-","mod":0},"notes":""},
+"com":{"value":0,"roll":"","shortname":"com","name":"Comliness","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"pre":{"value":10,"roll":"11-","shortname":"pre","name":"Presence","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":"PRE Attack: 2d6"},
+"spd":{"value":3,"roll":"10-","shortname":"spd","name":"Speed","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":"Phases: 4, 8, 12"},
+"ocv":{"value":4,"roll":"10-","shortname":"ocv","name":"Offensive Combat Value","current":"primary","primary":{"value":4,"roll":"10-","mod":0},"secondary":{"value":4,"roll":"10-","mod":0},"notes":""},
+"dcv":{"value":5,"roll":"10-","shortname":"dcv","name":"Defensive Combat Value","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":5,"roll":"10-","mod":0},"notes":""},
+"omcv":{"value":5,"roll":"10-","shortname":"omcv","name":"Offensive Mental Combat Value","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":5,"roll":"10-","mod":0},"notes":""},
+"dmcv":{"value":5,"roll":"10-","shortname":"dmcv","name":"Defensive Mental Combat Value","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":5,"roll":"10-","mod":0},"notes":""},
+"pd":{"value":6,"roll":"10-","shortname":"pd","name":"Physical Defence","current":"primary","primary":{"value":6,"roll":"10-","mod":0},"secondary":{"value":11,"roll":"11-","mod":0},"notes":"6/11 PD (0/5 rPD)"},
+"pdr":{"value":0,"roll":"10-","shortname":"pdr","name":"Physical Resistant Defence","current":"primary","primary":{"value":0,"roll":"10-","mod":0},"secondary":{"value":5,"roll":"11-","mod":0},"notes":"6/11 PD (0/5 rPD)"},
+"ed":{"value":6,"roll":"10-","shortname":"ed","name":"Energy Defence","current":"primary","primary":{"value":6,"roll":"10-","mod":0},"secondary":{"value":11,"roll":"11-","mod":0},"notes":"6/11 ED (0/5 rED)"},
+"edr":{"value":6,"roll":"10-","shortname":"edr","name":"Energy Resistant Defence","current":"primary","primary":{"value":6,"roll":"10-","mod":0},"secondary":{"value":11,"roll":"11-","mod":0},"notes":"6/11 ED (0/5 rED)"},
+"per":{"value":13,"roll":"12-","shortname":"per","name":"Perception Roll","current":"primary","primary":{"value":0,"roll":"12-","mod":0},"secondary":{"value":0,"roll":"12-","mod":0},"notes":""},
+"rec":{"value":6,"roll":"10-","shortname":"rec","name":"Recovery","current":"primary","primary":{"value":6,"roll":"10-","mod":0},"secondary":{"value":6,"roll":"10-","mod":0},"notes":""},
+"body":{"value":10,"roll":"11-","shortname":"body","name":"Body","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":""},
+"end":{"value":30,"roll":"15-","shortname":"end","name":"Endurance","current":"primary","primary":{"value":30,"roll":"15-","mod":0},"secondary":{"value":30,"roll":"15-","mod":0},"notes":""},
+"stun":{"value":30,"roll":"15-","shortname":"stun","name":"Stun","current":"primary","primary":{"value":30,"roll":"15-","mod":0},"secondary":{"value":30,"roll":"15-","mod":0},"notes":""},
+"def":{"value":0,"roll":"","shortname":"def","name":"Defence","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"}},
+"movement":{
+"run":{"current":"primary","combat":"12m","noncombat":"24m","primary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"secondary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"icon":"ui_run","notes":""},
+"swim":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_swim","notes":""},
+"leap":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_leap","notes":"4m forward, 2m upward"}},
+"skills":[
+	{"name":"Perception ","roll":"12-","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"uid":1111111111111,"type":"Perception","input":"","level":"0","active":"0","base":"0","XMLID":"PERCEPTION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Perception 12-"},
+	{"name":"Combat Skill Levels ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1281626898959,"type":"Combat Skill Levels","input":"with a large group of attacks","level":"4","active":"20","base":"20","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[],"option":"with a large group of attacks","optionAlias":"with PSI psychic attacks","optionID":"BROAD","text":"+4 with PSI psychic attacks"},
+	{"name":"KS (The Superhuman World) ","stat":"GENERAL","everyman":false,"familiarity":true,"proficiency":false,"roll":"8-","uid":1281626925077,"type":"KS","input":"The Superhuman World","level":"0","active":"1","base":"1","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: The Superhuman World 8-"},
+	{"name":"KS (PSI Operations) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1281626935245,"type":"KS","input":"PSI Operations","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: PSI Operations 11-"},
+	{"name":"PS (PSI Agent) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1281626947604,"type":"Professional Skill","input":"PSI Agent","level":"0","active":"2","base":"2","XMLID":"PROFESSIONAL_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"PS: PSI Agent 11-"},
+	{"name":"Stealth ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1281626959859,"type":"Stealth","input":"","level":"0","active":"3","base":"3","XMLID":"STEALTH","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Stealth 12-"},
+	{"name":"Tactics ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1281626960563,"type":"Tactics","input":"","level":"0","active":"3","base":"3","XMLID":"TACTICS","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Tactics 12-"},
+	{"name":"WF ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1281626964956,"type":"Weapon Familiarity","input":"","level":"0","active":"3","base":"3","XMLID":"WEAPON_FAMILIARITY","modifiers":[],"adders":[{"XMLID":"COMMONMELEE","name":"","uid":1281627018222,"cost":"1","type":"Common Melee Weapons","input":"","level":"0"},{"XMLID":"SMALLARMS","name":"","uid":1281627023599,"cost":"2","type":"Small Arms","input":"","level":"0"}],"option":"","optionAlias":"","optionID":"","text":"WF: Small Arms, Blades"},
+	{"name":"Combat Driving, Combat Piloting, Combat Skill Levels, Computer Programming, Demolitions, Electronics, Fast Draw, Gambling (3 points� worth), Interrogation, Lockpicking, Paramedics, Penalty Skill Levels, Persuasion, Security Systems, Skill Levels, Streetwise, Systems Operation, Teamwork, any Background Skill: Choose 14 Character Points� worth of the following Skills ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1281627006385,"type":"Custom Skill","input":"","level":"14","active":"14","base":"14","XMLID":"CUSTOMSKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Combat Driving, Combat Piloting, Combat Skill Levels, Computer Programming, Demolitions, Electronics, Fast Draw, Gambling (3 points� worth), Interrogation, Lockpicking, Paramedics, Penalty Skill Levels, Persuasion, Security Systems, Skill Levels, Streetwise, Systems Operation, Teamwork, any Background Skill "}],
+"talents":[],
+"perks":[],
+"disads":[
+	{"name":"Distinctive Features","roll":"","uid":1281627030695,"type":"Distinctive Features","input":"PSI Uniform","level":"0","active":"5","base":"5","XMLID":"DISTINCTIVEFEATURES","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1625682525900,"type":"Concealability","input":"Easily Concealed","level":"0"},{"name":"No Name Supplied","uid":1625682525906,"type":"Reaction","input":"Noticed and Recognizable","level":"0"},{"name":"No Name Supplied","uid":1625682525912,"type":"Sensing","input":"Detectable By Commonly-Used Senses","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1625701973277,"type":"Psychological Complication","input":"PSI-Indoctrinated Loyalty","level":"0","active":"15","base":"15","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1625702052672,"type":"Situation Is","input":"Common","level":"0"},{"name":"No Name Supplied","uid":1625702052678,"type":"Intensity Is","input":"Strong","level":"0"}]},
+	{"name":"Susceptibility","roll":"","uid":1625719948597,"type":"Susceptibility","input":"When Kill command Is Issued by PSI","level":"0","active":"15","base":"15","XMLID":"SUSCEPTIBILITY","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1625719977379,"type":"Number of Dice","input":"3d6 damage","level":"0"},{"name":"No Name Supplied","uid":1625719977392,"type":"Take Damage Every","input":"Instant","level":"0"},{"name":"No Name Supplied","uid":1625719977398,"type":"Condition Is","input":"Uncommon","level":"0"}]},
+	{"name":"Vulnerability","roll":"","uid":1625719997649,"type":"Vulnerability","input":"PSI Kill Command","level":"0","active":"10","base":"5","XMLID":"VULNERABILITY","modifiers":[{"value":"x2","name":"","uid":1625720026693,"type":"Vulnerability Multiplier","input":"2x BODY","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1625720026661,"type":"The Attack Is","input":"Uncommon","level":"0"}]},
+	{"name":"Hunted","roll":"","uid":1281627124935,"type":"Hunted","input":"UNTIL","level":"0","active":"20","base":"20","XMLID":"HUNTED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1281627124899,"type":"Appearance","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1281627124905,"type":"Capabilities","input":"More Powerful","level":"0"},{"name":"No Name Supplied","uid":1281627124911,"type":"Motivation","input":"Harshly Punish","level":"0"},{"name":"No Name Supplied","uid":1281627124912,"type":"Extensive Non-Combat Influence","input":"","level":"0"}]},
+	{"name":"Hunted","roll":"","uid":1281627125019,"type":"Hunted","input":"PSI","level":"0","active":"10","base":"10","XMLID":"HUNTED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1625682512733,"type":"Appearance","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1625682512739,"type":"Capabilities","input":"More Powerful","level":"0"},{"name":"No Name Supplied","uid":1625682512745,"type":"Motivation","input":"Watching","level":"0"},{"name":"No Name Supplied","uid":1625682512746,"type":"Extensive Non-Combat Influence","input":"","level":"0"}]},
+	{"name":"Social Complication","roll":"","uid":1281627125073,"type":"Social Complication","input":"Subject to Orders","level":"0","active":"20","base":"20","XMLID":"SOCIALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1281627125051,"type":"Circumstances Occur","input":"Very Frequently","level":"0"},{"name":"No Name Supplied","uid":1281627125058,"type":"Effects of Restrictions","input":"Major","level":"0"}]}],
+"combatlevels":[
+	{"name":"Combat Skill Levels","roll":"","uid":1281626898959,"type":"Combat Skill Levels","input":"with a large group of attacks","level":"4","active":"20","base":"20","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[]}],
+"powers":[
+	{"name":"PSI Armored Suit","uid":1281627492533,"type":"Resistant Protection","damage":"","range":"","input":"","level":"10","end":"0","active":"15","base":"15","XMLID":"FORCEFIELD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1625683104492,"type":"Focus","damage":"","range":"","input":"OIF","level":"0"},{"value":"-¼","name":"","uid":1625683104528,"type":"Requires A Roll","damage":"","range":"","input":"14- roll","level":"0"}],"adders":[]},
+	{"name":"Psionic Powers","uid":1625683806754,"type":"","damage":"","range":"","input":"","level":"0","end":"","active":"30","base":"30","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Psychic Blast","uid":1625685313240,"type":"Mental Blast","damage":"3d6","range":"LOS","input":"Human","level":"3","end":"3","active":"30","base":"30","XMLID":"EGOATTACK","strMod":false,"class":{"attack":true,"mental":true,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Mind Reading","uid":1625685396066,"type":"Telepathy","damage":"6d6","range":"LOS","input":"Human","level":"6","end":"3","active":"30","base":"30","XMLID":"TELEPATHY","strMod":false,"class":{"attack":false,"mental":true,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"PSI Radio","uid":1281627711632,"type":"Radio Perception/Transmission","damage":"","range":"","input":"","level":"0","end":"0","active":"10","base":"10","XMLID":"RADIOPERCEIVETRANSMIT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[{"value":"-½","name":"","uid":1625683088943,"type":"Focus","damage":"","range":"","input":"OIF","level":"0"},{"value":"-¼","name":"","uid":1625683088949,"type":"Sense Affected As More Than One Sense","damage":"","range":"","input":"[any other Sense]","level":"0"}],"adders":[]},
+	{"name":"Psychokinetic Blade","uid":1625685492500,"type":"Killing Attack - Hand-To-Hand","damage":"4d6 (4½d6 w/STR)","range":"","input":"ED","level":"4","end":"7","active":"75","base":"60","XMLID":"HKA","strMod":true,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1625685579298,"type":"+1 Increased STUN Multiplier","damage":"4d6 (4½d6 w/STR)","range":"","input":"","level":"1"}],"adders":[]}],
+"equipment":[],
+"martialArts":[	
+	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Normal Attack","time":"½","level":"0","active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false},
+	{"name":"Akido Throw","gameEdition":6 ,"ocvMod":0,"dcvMod":1,"dice":3,"halfDice":false,"killingAttack":false,"effect":"3d6 +v/10, Target Falls","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"3","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Akido Throw:½ Phase, +0 OCV, +1 DCV, 3d6 +v/10, Target Falls","rngMod":0, "abort":false
+	},{"name":"Block","gameEdition":6 ,"ocvMod":2,"dcvMod":2,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Block, Abort","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"4","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Block:½ Phase, +2 OCV, +2 DCV, Block, Abort","rngMod":0, "abort":true
+	},{"name":"Boxing Cross","gameEdition":6 ,"ocvMod":0,"dcvMod":2,"dice":3,"halfDice":false,"killingAttack":false,"effect":"5d6 Strike","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"4","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Boxing Cross:½ Phase, +0 OCV, +2 DCV, 5d6 Strike","rngMod":0, "abort":false
+	},{"name":"Dodge","gameEdition":6 ,"ocvMod":0,"dcvMod":5,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Dodge, Affects All Attacks, Abort","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"4","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Dodge:½ Phase, -- OCV, +5 DCV, Dodge, Affects All Attacks, Abort","rngMod":0, "abort":true
+	}],
+"rolls":[
+	{"name":"Psychic Blast","uid":1625685313240,"gameEdition":6,"tool":"3d6, Mental Blast (vs. Human) LOS, 3 end.","diceMod":0,"dice":3,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Psychokinetic Blade","uid":1625685492500,"gameEdition":6,"tool":"4d6 (4½d6 w/STR), Killing Attack - Hand-To-Hand (vs. ED) , 7 end.","diceMod":0,"dice":4,"halfDice":true,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":true,"stunMultiplierMod":1}],
+"lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,214 @@
+{
+"appversion":"20210301",
+"exportid":"20210918160750",
+"name":"Rakshasa",
+"playername":"",
+"version":3.1,
+"edition":6,
+"stats":{
+"siz":{"value":0,"roll":"","shortname":"siz","name":"Size","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"str":{"value":20,"roll":"13-","shortname":"str","name":"Strength","current":"primary","primary":{"value":20,"roll":"13-","mod":0},"secondary":{"value":20,"roll":"13-","mod":0},"notes":"HTH Damage 4d6  END [2]"},
+"dex":{"value":23,"roll":"14-","shortname":"dex","name":"Dexterity","current":"primary","primary":{"value":23,"roll":"14-","mod":0},"secondary":{"value":23,"roll":"14-","mod":0},"notes":""},
+"con":{"value":20,"roll":"13-","shortname":"con","name":"Constitution","current":"primary","primary":{"value":20,"roll":"13-","mod":0},"secondary":{"value":20,"roll":"13-","mod":0},"notes":""},
+"int":{"value":20,"roll":"13-","shortname":"int","name":"Intelligence","current":"primary","primary":{"value":20,"roll":"13-","mod":0},"secondary":{"value":20,"roll":"13-","mod":0},"notes":"PER Roll 13-"},
+"ego":{"value":20,"roll":"13-","shortname":"ego","name":"Ego","current":"primary","primary":{"value":20,"roll":"13-","mod":0},"secondary":{"value":20,"roll":"13-","mod":0},"notes":""},
+"com":{"value":0,"roll":"","shortname":"com","name":"Comliness","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"pre":{"value":25,"roll":"14-","shortname":"pre","name":"Presence","current":"primary","primary":{"value":25,"roll":"14-","mod":0},"secondary":{"value":25,"roll":"14-","mod":0},"notes":"PRE Attack: 5d6"},
+"spd":{"value":6,"roll":"10-","shortname":"spd","name":"Speed","current":"primary","primary":{"value":6,"roll":"10-","mod":0},"secondary":{"value":6,"roll":"10-","mod":0},"notes":"Phases: 2, 4, 6, 8, 10, 12"},
+"ocv":{"value":9,"roll":"11-","shortname":"ocv","name":"Offensive Combat Value","current":"primary","primary":{"value":9,"roll":"11-","mod":0},"secondary":{"value":9,"roll":"11-","mod":0},"notes":""},
+"dcv":{"value":9,"roll":"11-","shortname":"dcv","name":"Defensive Combat Value","current":"primary","primary":{"value":9,"roll":"11-","mod":0},"secondary":{"value":9,"roll":"11-","mod":0},"notes":""},
+"omcv":{"value":7,"roll":"10-","shortname":"omcv","name":"Offensive Mental Combat Value","current":"primary","primary":{"value":7,"roll":"10-","mod":0},"secondary":{"value":7,"roll":"10-","mod":0},"notes":""},
+"dmcv":{"value":7,"roll":"10-","shortname":"dmcv","name":"Defensive Mental Combat Value","current":"primary","primary":{"value":7,"roll":"10-","mod":0},"secondary":{"value":7,"roll":"10-","mod":0},"notes":""},
+"pd":{"value":15,"roll":"12-","shortname":"pd","name":"Physical Defence","current":"primary","primary":{"value":15,"roll":"12-","mod":0},"secondary":{"value":15,"roll":"12-","mod":0},"notes":"15 PD (8 rPD)"},
+"pdr":{"value":8,"roll":"12-","shortname":"pdr","name":"Physical Resistant Defence","current":"primary","primary":{"value":8,"roll":"12-","mod":0},"secondary":{"value":8,"roll":"12-","mod":0},"notes":"15 PD (8 rPD)"},
+"ed":{"value":15,"roll":"12-","shortname":"ed","name":"Energy Defence","current":"primary","primary":{"value":15,"roll":"12-","mod":0},"secondary":{"value":15,"roll":"12-","mod":0},"notes":"15 ED (8 rED)"},
+"edr":{"value":15,"roll":"12-","shortname":"edr","name":"Energy Resistant Defence","current":"primary","primary":{"value":15,"roll":"12-","mod":0},"secondary":{"value":15,"roll":"12-","mod":0},"notes":"15 ED (8 rED)"},
+"per":{"value":20,"roll":"13-","shortname":"per","name":"Perception Roll","current":"primary","primary":{"value":0,"roll":"13-","mod":0},"secondary":{"value":0,"roll":"13-","mod":0},"notes":""},
+"rec":{"value":8,"roll":"11-","shortname":"rec","name":"Recovery","current":"primary","primary":{"value":8,"roll":"11-","mod":0},"secondary":{"value":8,"roll":"11-","mod":0},"notes":""},
+"body":{"value":10,"roll":"11-","shortname":"body","name":"Body","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":""},
+"end":{"value":40,"roll":"17-","shortname":"end","name":"Endurance","current":"primary","primary":{"value":40,"roll":"17-","mod":0},"secondary":{"value":40,"roll":"17-","mod":0},"notes":""},
+"stun":{"value":30,"roll":"15-","shortname":"stun","name":"Stun","current":"primary","primary":{"value":30,"roll":"15-","mod":0},"secondary":{"value":30,"roll":"15-","mod":0},"notes":""},
+"def":{"value":0,"roll":"","shortname":"def","name":"Defence","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"}},
+"movement":{
+"run":{"current":"primary","combat":"18m","noncombat":"36m","primary":{"combat":{"description":"18m","value":18},"noncombat":{"description":"36m","value":36}},"secondary":{"combat":{"description":"18m","value":18},"noncombat":{"description":"36m","value":36}},"icon":"ui_run","notes":""},
+"swim":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_swim","notes":""},
+"leap":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_leap","notes":"4m forward, 2m upward"}},
+"skills":[
+	{"name":"Perception ","roll":"13-","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"uid":1111111111111,"type":"Perception","input":"","level":"0","active":"0","base":"0","XMLID":"PERCEPTION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Perception 13-"},
+	{"name":"Acting ","stat":"PRE","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1281549363005,"type":"Acting","input":"","level":"0","active":"3","base":"3","XMLID":"ACTING","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Acting 14-"},
+	{"name":"Bureaucratics ","stat":"PRE","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1281549367068,"type":"Bureaucratics","input":"","level":"0","active":"3","base":"3","XMLID":"BUREAUCRATICS","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Bureaucratics 14-"},
+	{"name":"Charm ","stat":"PRE","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1281549367700,"type":"Charm","input":"","level":"0","active":"3","base":"3","XMLID":"CHARM","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Charm 14-"},
+	{"name":"Conversation ","stat":"PRE","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1281549374916,"type":"Conversation","input":"","level":"0","active":"3","base":"3","XMLID":"CONVERSATION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Conversation 14-"},
+	{"name":"Disguise ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1281549375932,"type":"Disguise","input":"","level":"0","active":"3","base":"3","XMLID":"DISGUISE","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Disguise 13-"},
+	{"name":"High Society ","stat":"PRE","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1281549377372,"type":"High Society","input":"","level":"0","active":"3","base":"3","XMLID":"HIGH_SOCIETY","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"High Society 14-"},
+	{"name":"KS (Indian Culture) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1281549383715,"type":"KS","input":"Indian Culture","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Indian Culture 11-"},
+	{"name":"KS (Indian History) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1281549390163,"type":"KS","input":"Indian History","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Indian History 11-"},
+	{"name":"Language (English) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1281549400139,"type":"Language","input":"Englishfluent conversation","level":"0","active":"2","base":"2","XMLID":"LANGUAGES","modifiers":[],"adders":[],"option":"fluent conversation","optionAlias":"fluent conversation","optionID":"FLUENT","text":"Language: English (fluent conversation)"},
+	{"name":"Language (Hindi) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1281549413690,"type":"Language","input":"Hindiidiomatic","level":"0","active":"4","base":"4","XMLID":"LANGUAGES","modifiers":[],"adders":[],"option":"idiomatic","optionAlias":"idiomatic","optionID":"IDIOMATIC","text":"Language: Hindi (idiomatic) (4 Active Points)"},
+	{"name":"Lockpicking ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1281549432705,"type":"Lockpicking","input":"","level":"0","active":"3","base":"3","XMLID":"LOCKPICKING","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Lockpicking 14-"},
+	{"name":"Mimicry ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1281549436912,"type":"Mimicry","input":"","level":"0","active":"3","base":"3","XMLID":"MIMICRY","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Mimicry 13-"},
+	{"name":"Persuasion ","stat":"PRE","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1281549437984,"type":"Persuasion","input":"","level":"0","active":"3","base":"3","XMLID":"PERSUASION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Persuasion 14-"},
+	{"name":"Security Systems ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1281549439192,"type":"Security Systems","input":"","level":"0","active":"3","base":"3","XMLID":"SECURITY_SYSTEMS","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Security Systems 13-"},
+	{"name":"Stealth ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1281549442664,"type":"Stealth","input":"","level":"0","active":"3","base":"3","XMLID":"STEALTH","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Stealth 14-"},
+	{"name":"Streetwise ","stat":"PRE","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1281549443384,"type":"Streetwise","input":"","level":"0","active":"3","base":"3","XMLID":"STREETWISE","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Streetwise 14-"}],
+"talents":[
+	{"name":"Combat Sense 13-","roll":"13-","uid":1281549452016,"type":"Combat Sense","input":"","level":"0","active":"15","base":"15","XMLID":"COMBAT_SENSE","modifiers":[],"adders":[]},
+	{"name":"Lightsleep ","roll":"","uid":1281549456839,"type":"Lightsleep","input":"","level":"0","active":"3","base":"3","XMLID":"LIGHTSLEEP","modifiers":[],"adders":[]}],
+"perks":[],
+"disads":[
+	{"name":"Distinctive Features","roll":"","uid":1281551526456,"type":"Distinctive Features","input":"Mutant","level":"0","active":"10","base":"10","XMLID":"DISTINCTIVEFEATURES","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1281551526423,"type":"Concealability","input":"Not Concealable","level":"0"},{"name":"No Name Supplied","uid":1281551526429,"type":"Reaction","input":"Always Noticed and Causes Major Reaction","level":"0"},{"name":"No Name Supplied","uid":1281551526435,"type":"Sensing","input":"Detectable Only By Technology Or Major Effort","level":"0"}]},
+	{"name":"Hunted","roll":"","uid":1281551544907,"type":"Hunted","input":"UNTIL","level":"0","active":"20","base":"20","XMLID":"HUNTED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1281551544870,"type":"Appearance","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1281551544876,"type":"Capabilities","input":"More Powerful","level":"0"},{"name":"No Name Supplied","uid":1281551544882,"type":"Motivation","input":"Harshly Punish","level":"0"},{"name":"No Name Supplied","uid":1281551544883,"type":"Extensive Non-Combat Influence","input":"","level":"0"}]},
+	{"name":"Hunted","roll":"","uid":1281551556891,"type":"Hunted","input":"PRIMUS","level":"0","active":"20","base":"20","XMLID":"HUNTED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1281551556855,"type":"Appearance","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1281551556861,"type":"Capabilities","input":"More Powerful","level":"0"},{"name":"No Name Supplied","uid":1281551556867,"type":"Motivation","input":"Harshly Punish","level":"0"},{"name":"No Name Supplied","uid":1281551556868,"type":"Extensive Non-Combat Influence","input":"","level":"0"}]},
+	{"name":"Hunted","roll":"","uid":1281551509261,"type":"Hunted","input":"Dr Destroyer","level":"0","active":"10","base":"10","XMLID":"HUNTED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1281551509225,"type":"Appearance","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1281551509231,"type":"Capabilities","input":"More Powerful","level":"0"},{"name":"No Name Supplied","uid":1281551509237,"type":"Motivation","input":"Watching","level":"0"},{"name":"No Name Supplied","uid":1281551509238,"type":"Extensive Non-Combat Influence","input":"","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1281551581060,"type":"Psychological Complication","input":"Completely Loyal to Dr Destroyer","level":"0","active":"25","base":"25","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1281551581040,"type":"Situation Is","input":"Very Common","level":"0"},{"name":"No Name Supplied","uid":1281551581046,"type":"Intensity Is","input":"Total","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1281551498163,"type":"Psychological Complication","input":"Utterly Amoral","level":"0","active":"15","base":"15","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1281551626672,"type":"Situation Is","input":"Common","level":"0"},{"name":"No Name Supplied","uid":1281551626678,"type":"Intensity Is","input":"Strong","level":"0"}]},
+	{"name":"Social Complication","roll":"","uid":1281551601012,"type":"Social Complication","input":"Secret ID (Palash Krisharan)","level":"0","active":"15","base":"15","XMLID":"SOCIALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1281551602311,"type":"Circumstances Occur","input":"Frequently","level":"0"},{"name":"No Name Supplied","uid":1281551602317,"type":"Effects of Restrictions","input":"Major","level":"0"}]}],
+"combatlevels":[],
+"powers":[
+	{"name":"Maya-Weaving","uid":1281549540223,"type":"","damage":"","range":"","input":"","level":"0","end":"","active":"75","base":"75","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Personal Illusions","uid":1281549475870,"type":"Mental Illusions","damage":"12d6","range":"LOS","input":"","level":"12","end":"3","active":"75","base":"60","XMLID":"MENTALILLUSIONS","strMod":false,"class":{"attack":true,"mental":true,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1281549575880,"type":"Reduced Endurance","damage":"12d6","range":"LOS","input":"Half END","level":"0"}],"adders":[]},
+	{"name":"Group Illusions","uid":1281549520260,"type":"Images","damage":"","range":"370m","input":"Sight Group","level":"0","end":"3","active":"74","base":"37","XMLID":"IMAGES","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":true,"special":false},"modifiers":[{"value":"+¾","name":"","uid":1281549630639,"type":"Area Of Effect","damage":"","range":"370m","input":"Radius","level":"16"},{"value":"+¼","name":"","uid":1281549638400,"type":"Reduced Endurance","damage":"","range":"370m","input":"Half END","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1281549607157,"type":"","damage":"","range":"370m","input":"","level":"0"},{"name":"No Name Supplied","uid":1281549612442,"type":"","damage":"","range":"370m","input":"","level":"0"},{"name":"No Name Supplied","uid":1281549613363,"type":"","damage":"","range":"370m","input":"","level":"0"},{"name":"No Name Supplied","uid":1281549618254,"type":"+/-4 to PER Rolls","damage":"","range":"370m","input":"","level":"4"}]},
+	{"name":"Voice of the Mind","uid":1281549568169,"type":"Telepathy","damage":"12d6","range":"LOS","input":"","level":"12","end":"3","active":"75","base":"60","XMLID":"TELEPATHY","strMod":false,"class":{"attack":false,"mental":true,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1281549661580,"type":"Reduced Endurance","damage":"12d6","range":"LOS","input":"Half END","level":"0"}],"adders":[]},
+	{"name":"No Name Supplied","uid":1281549595576,"type":"Shape Shift","damage":"","range":"","input":"Sight Group","level":"0","end":"3","active":"44","base":"35","XMLID":"SHAPESHIFT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":true,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1281549716633,"type":"Costs END Only To Change Shape","damage":"","range":"","input":"","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1281549686169,"type":"","damage":"","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1281549690812,"type":"","damage":"","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1281549691633,"type":"","damage":"","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1281549704235,"type":"Variety of Shapes","damage":"","range":"","input":"limited group of shapes","level":"0"},{"name":"No Name Supplied","uid":1281549708814,"type":"Imitation","damage":"","range":"","input":"","level":"0"}]},
+	{"name":"Maleable Form","uid":1281549653100,"type":"Stretching","damage":"6m","range":"","input":"","level":"6","end":"1","active":"6","base":"6","XMLID":"STRETCHING","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":true,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Toughness","uid":1281549675675,"type":"Resistant Protection","damage":"","range":"","input":"","level":"16","end":"0","active":"24","base":"24","XMLID":"FORCEFIELD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Swift Runner","uid":1281549690818,"type":"Running","damage":"","range":"","input":"","level":"6","end":"1","active":"6","base":"6","XMLID":"RUNNING","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]}],
+"equipment":[],
+"martialArts":[	
+	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Normal Attack","time":"½","level":"0","active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false}],
+"rolls":[
+	{"name":"Personal Illusions","uid":1281549475870,"gameEdition":6,"tool":"12d6, Mental Illusions LOS, 3 end.","diceMod":0,"dice":12,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Group Illusions","uid":1281549520260,"gameEdition":6,"tool":"Images (vs. Sight Group) 370m, 3 end.","diceMod":0,"dice":0,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0}],
+"lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
