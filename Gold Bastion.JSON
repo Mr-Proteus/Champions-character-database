@@ -1,0 +1,208 @@
+{
+"appversion":"20210301",
+"exportid":"20220329203304",
+"name":"Gold Bastion",
+"playername":"",
+"version":3.1,
+"edition":6,
+"stats":{
+"siz":{"value":0,"roll":"","shortname":"siz","name":"Size","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"str":{"value":20,"roll":"13-","shortname":"str","name":"Strength","current":"primary","primary":{"value":20,"roll":"13-","mod":0},"secondary":{"value":20,"roll":"13-","mod":0},"notes":"HTH Damage 4d6  END [4]"},
+"dex":{"value":14,"roll":"12-","shortname":"dex","name":"Dexterity","current":"primary","primary":{"value":14,"roll":"12-","mod":0},"secondary":{"value":14,"roll":"12-","mod":0},"notes":""},
+"con":{"value":13,"roll":"12-","shortname":"con","name":"Constitution","current":"primary","primary":{"value":13,"roll":"12-","mod":0},"secondary":{"value":13,"roll":"12-","mod":0},"notes":""},
+"int":{"value":13,"roll":"12-","shortname":"int","name":"Intelligence","current":"primary","primary":{"value":13,"roll":"12-","mod":0},"secondary":{"value":13,"roll":"12-","mod":0},"notes":"PER Roll 12-"},
+"ego":{"value":11,"roll":"11-","shortname":"ego","name":"Ego","current":"primary","primary":{"value":11,"roll":"11-","mod":0},"secondary":{"value":11,"roll":"11-","mod":0},"notes":""},
+"com":{"value":0,"roll":"","shortname":"com","name":"Comliness","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"pre":{"value":13,"roll":"12-","shortname":"pre","name":"Presence","current":"primary","primary":{"value":13,"roll":"12-","mod":0},"secondary":{"value":13,"roll":"12-","mod":0},"notes":"PRE Attack: 2Â½d6"},
+"spd":{"value":3,"roll":"10-","shortname":"spd","name":"Speed","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":"Phases: 4, 8, 12"},
+"ocv":{"value":5,"roll":"10-","shortname":"ocv","name":"Offensive Combat Value","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":5,"roll":"10-","mod":0},"notes":""},
+"dcv":{"value":5,"roll":"10-","shortname":"dcv","name":"Defensive Combat Value","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":5,"roll":"10-","mod":0},"notes":""},
+"omcv":{"value":4,"roll":"10-","shortname":"omcv","name":"Offensive Mental Combat Value","current":"primary","primary":{"value":4,"roll":"10-","mod":0},"secondary":{"value":4,"roll":"10-","mod":0},"notes":""},
+"dmcv":{"value":4,"roll":"10-","shortname":"dmcv","name":"Defensive Mental Combat Value","current":"primary","primary":{"value":4,"roll":"10-","mod":0},"secondary":{"value":4,"roll":"10-","mod":0},"notes":""},
+"pd":{"value":10,"roll":"11-","shortname":"pd","name":"Physical Defence","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":"10 PD (0 rPD)"},
+"pdr":{"value":0,"roll":"11-","shortname":"pdr","name":"Physical Resistant Defence","current":"primary","primary":{"value":0,"roll":"11-","mod":0},"secondary":{"value":0,"roll":"11-","mod":0},"notes":"10 PD (0 rPD)"},
+"ed":{"value":10,"roll":"11-","shortname":"ed","name":"Energy Defence","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":"10 ED (0 rED)"},
+"edr":{"value":10,"roll":"11-","shortname":"edr","name":"Energy Resistant Defence","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":"10 ED (0 rED)"},
+"per":{"value":13,"roll":"12-","shortname":"per","name":"Perception Roll","current":"primary","primary":{"value":0,"roll":"12-","mod":0},"secondary":{"value":0,"roll":"12-","mod":0},"notes":""},
+"rec":{"value":5,"roll":"10-","shortname":"rec","name":"Recovery","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":5,"roll":"10-","mod":0},"notes":""},
+"body":{"value":10,"roll":"11-","shortname":"body","name":"Body","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":""},
+"end":{"value":25,"roll":"14-","shortname":"end","name":"Endurance","current":"primary","primary":{"value":25,"roll":"14-","mod":0},"secondary":{"value":25,"roll":"14-","mod":0},"notes":""},
+"stun":{"value":22,"roll":"13-","shortname":"stun","name":"Stun","current":"primary","primary":{"value":22,"roll":"13-","mod":0},"secondary":{"value":22,"roll":"13-","mod":0},"notes":""},
+"def":{"value":0,"roll":"","shortname":"def","name":"Defence","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"}},
+"movement":{
+"run":{"current":"primary","combat":"14m","noncombat":"28m","primary":{"combat":{"description":"14m","value":14},"noncombat":{"description":"28m","value":28}},"secondary":{"combat":{"description":"14m","value":14},"noncombat":{"description":"28m","value":28}},"icon":"ui_run","notes":""},
+"swim":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_swim","notes":""},
+"leap":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_leap","notes":"4m forward, 2m upward"}},
+"skills":[
+	{"name":"Perception ","roll":"12-","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"uid":1111111111111,"type":"Perception","input":"","level":"0","active":"0","base":"0","XMLID":"PERCEPTION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Perception 12-"},
+	{"name":"4-point Skill Level (player’s choice) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1248389058646,"type":"Custom Skill","input":"","level":"4","active":"4","base":"4","XMLID":"CUSTOMSKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"4-point Skill Level (player’s choice) "},
+	{"name":"KS (Own Profession) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1248387987803,"type":"KS","input":"Own Profession","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Own Profession 11-"},
+	{"name":"KS (Hobby) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1248388006070,"type":"KS","input":"Hobby","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Hobby 11-"},
+	{"name":"PS (Own Profession) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1248388016417,"type":"Professional Skill","input":"Own Profession","level":"1","active":"3","base":"3","XMLID":"PROFESSIONAL_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"PS: Own Profession 12-"},
+	{"name":"Two Characteristic-Based Skills (player’s choice) at +1 each ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1248389085788,"type":"Custom Skill","input":"","level":"10","active":"10","base":"10","XMLID":"CUSTOMSKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Two Characteristic-Based Skills (player’s choice) at +1 each "},
+	{"name":"Familiarity with 1 Skill ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"8-","uid":1248388469399,"type":"Custom Skill","input":"","level":"1","active":"1","base":"1","XMLID":"CUSTOMSKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Familiarity with 1 Skill 8-"},
+	{"name":"Familiarity with 1 Skill ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"8-","uid":1248388637045,"type":"Custom Skill","input":"","level":"1","active":"1","base":"1","XMLID":"CUSTOMSKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Familiarity with 1 Skill 8-"},
+	{"name":"WF ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1248389128916,"type":"Weapon Familiarity","input":"","level":"0","active":"1","base":"1","XMLID":"WEAPON_FAMILIARITY","modifiers":[],"adders":[{"XMLID":"GENERIC_OBJECT","name":"","uid":1248389142468,"cost":"1","type":"","input":"","level":"0"}],"option":"","optionAlias":"","optionID":"","text":"WF: one 1-point Weapon Familiarity of character’s choice"},
+	{"name":"9 Character Points’ worth of Skills or Talents (player’s choice) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1248388651541,"type":"Custom Skill","input":"","level":"9","active":"9","base":"9","XMLID":"CUSTOMSKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"9 Character Points’ worth of Skills or Talents (player’s choice) "}],
+"talents":[],
+"perks":[],
+"disads":[
+	{"name":"Custom Complication","roll":"","uid":1248388032688,"type":"Custom Complication","input":"","level":"0","active":"15","base":"15","XMLID":"GENERICDISADVANTAGE","modifiers":[],"adders":[]},
+	{"name":"Custom Complication","roll":"","uid":1248388689736,"type":"Custom Complication","input":"","level":"0","active":"10","base":"10","XMLID":"GENERICDISADVANTAGE","modifiers":[],"adders":[]}],
+"combatlevels":[],
+"powers":[
+	{"name":"Fast","uid":1248389037031,"type":"Running","damage":"","range":"","input":"","level":"2","end":"1","active":"2","base":"2","XMLID":"RUNNING","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Laser Rifle","uid":1648584930736,"type":"","damage":"","range":"","input":"","level":"0","end":"","active":"90","base":"60","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-1","name":"","uid":1648584930734,"type":"Focus","damage":"","range":"","input":"OAF","level":"0"}],"adders":[]},
+	{"name":"Primary Laser","uid":1648584930809,"type":"Blast","damage":"12d6","range":"600m","input":"ED","level":"12","end":"6","active":"60","base":"60","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-Â¼","name":"","uid":1648584930803,"type":"No Knockback","damage":"12d6","range":"600m","input":"","level":"0"}],"adders":[]},
+	{"name":"Focused Laser","uid":1648584930817,"type":"Blast","damage":"9d6","range":"450m","input":"ED","level":"9","end":"6","active":"56","base":"45","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-Â¼","name":"","uid":1648584930810,"type":"No Knockback","damage":"9d6","range":"450m","input":"","level":"0"},{"value":"+Â¼","name":"","uid":1648584930811,"type":"Armor Piercing","damage":"9d6","range":"450m","input":"","level":"1"}],"adders":[]},
+	{"name":"X-Ray Laser","uid":1648584930860,"type":"Blast","damage":"8d6","range":"400m","input":"ED","level":"8","end":"6","active":"60","base":"40","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-Â¼","name":"","uid":1648584930818,"type":"No Knockback","damage":"8d6","range":"400m","input":"","level":"0"},{"value":"+Â½","name":"","uid":1648584930853,"type":"Invisible Power Effects","damage":"8d6","range":"400m","input":"Obvious Power, Invisible to [one Sense Group]","level":"0"}],"adders":[]},
+	{"name":"Sniping Laser","uid":1648584930868,"type":"Blast","damage":"8d6","range":"400m","input":"ED","level":"8","end":"6","active":"60","base":"40","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-Â¼","name":"","uid":1648584930861,"type":"No Knockback","damage":"8d6","range":"400m","input":"","level":"0"},{"value":"+Â½","name":"","uid":1648584930862,"type":"No Range Modifier","damage":"8d6","range":"400m","input":"","level":"0"}],"adders":[]},
+	{"name":"Pulse Laser","uid":1648584930887,"type":"Blast","damage":"8d6","range":"400m","input":"ED","level":"8","end":"6","active":"60","base":"40","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-Â¼","name":"","uid":1648584930869,"type":"No Knockback","damage":"8d6","range":"400m","input":"","level":"0"},{"value":"+Â½","name":"","uid":1648584930879,"type":"Autofire","damage":"8d6","range":"400m","input":"5 Shots","level":"0"}],"adders":[]},
+	{"name":"Modulated Laser","uid":1648584930915,"type":"Blast","damage":"6d6","range":"300m","input":"ED","level":"6","end":"4","active":"45","base":"30","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+Â½","name":"","uid":1648584930908,"type":"Attack Versus Alternate Defense","damage":"6d6","range":"300m","input":"defense is ED Resistant Protection defined as a force-field, or the likeVery Common -> Uncommon","level":"0"}],"adders":[]},
+	{"name":"High-Intensity Laser","uid":1648584930952,"type":"Killing Ranged","damage":"4d6","range":"600m","input":"ED","level":"4","end":"6","active":"60","base":"60","XMLID":"RKA","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-Â¼","name":"","uid":1648584930916,"type":"No Knockback","damage":"4d6","range":"600m","input":"","level":"0"},{"value":"-1","name":"","uid":1648584930943,"type":"Focus","damage":"4d6","range":"600m","input":"OAF","level":"0"}],"adders":[]},
+	{"name":"Wide-Beam Laser","uid":1648584930958,"type":"Flash","damage":"12d6","range":"600m","input":"Sight Group","level":"12","end":"6","active":"60","base":"60","XMLID":"FLASH","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":true,"special":false},"modifiers":[],"adders":[]}],
+"equipment":[],
+"martialArts":[	
+	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Normal Attack","time":"Â½","level":"0","active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:Â½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false}],
+"rolls":[
+	{"name":"Primary Laser","uid":1648584930809,"gameEdition":6,"tool":"12d6, Blast (vs. ED) 600m, 6 end.","diceMod":0,"dice":12,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Focused Laser","uid":1648584930817,"gameEdition":6,"tool":"9d6, Blast (vs. ED) 450m, 6 end.","diceMod":0,"dice":9,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"X-Ray Laser","uid":1648584930860,"gameEdition":6,"tool":"8d6, Blast (vs. ED) 400m, 6 end.","diceMod":0,"dice":8,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Sniping Laser","uid":1648584930868,"gameEdition":6,"tool":"8d6, Blast (vs. ED) 400m, 6 end.","diceMod":0,"dice":8,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Pulse Laser","uid":1648584930887,"gameEdition":6,"tool":"8d6, Blast (vs. ED) 400m, 6 end.","diceMod":0,"dice":8,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Modulated Laser","uid":1648584930915,"gameEdition":6,"tool":"6d6, Blast (vs. ED) 300m, 4 end.","diceMod":0,"dice":6,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"High-Intensity Laser","uid":1648584930952,"gameEdition":6,"tool":"4d6, Killing Ranged (vs. ED) 600m, 6 end.","diceMod":0,"dice":4,"halfDice":false,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Wide-Beam Laser","uid":1648584930958,"gameEdition":6,"tool":"12d6, Flash (vs. Sight Group) 600m, 6 end.","diceMod":0,"dice":12,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0}],
+"lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
